@@ -1,8 +1,7 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styled from "@emotion/styled";
 import Logo from "@/component/atoms/Logo";
 import Login from "@/component/atoms/Login";
-import UserInfo from "@/component/molecules/UserInfo";
 
 
 const NavigationStyle = styled.nav<{show:boolean}>`
@@ -24,7 +23,25 @@ interface Props {
 }
 
 
-const Navigation = ({show}:Props):React.ReactElement=>{
+const Navigation = ():React.ReactElement=>{
+
+    const [show, setShow] = useState(false);
+
+    const handleScrollY = ()=>{
+        if (window.scrollY > 50){
+            setShow(true);
+        }else {
+            setShow(false);
+        }
+    }
+
+    useEffect(()=>{
+        window.addEventListener('scroll',handleScrollY)
+        return ()=>{
+            window.removeEventListener('scroll',handleScrollY)
+        }
+    },[])
+
 
     return (
     <NavigationStyle show={show}>
@@ -33,9 +50,6 @@ const Navigation = ({show}:Props):React.ReactElement=>{
         {/*<UserInfo></UserInfo>*/}
     </NavigationStyle>
     )
-}
-Navigation.defaultProps = {
-    show: true
 }
 
 export default Navigation

@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+
 import type {AppProps} from "next/app";
 import React from "react";
 import Navigation from "@/component/organisms/Navigation";
@@ -21,7 +21,7 @@ export default function MyApp({Component, pageProps}: AppProps) {
               }
             `}/>
             <Navigation></Navigation>
-            <Component {...pageProps} />;
+            <Component {...pageProps} />
         </>
 
     )

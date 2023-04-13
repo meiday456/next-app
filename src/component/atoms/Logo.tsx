@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import {ButtonProps} from "@/types/ButtonType";
 
 const LogoStyle = styled.a`
-  padding:0;
+  padding: 0;
   width: 80px;
   margin-top: 4px;
   max-height: 70px;
@@ -16,7 +16,7 @@ const LogoStyle = styled.a`
   }
 `
 
-const Logo = ({onClick}:ButtonProps):React.ReactElement=>{
+const Logo = ({onClick}: ButtonProps): React.ReactElement => {
 
     return <LogoStyle>
         <img
