@@ -7,7 +7,8 @@ const ApiUtils = axios.create({
     method: "get",
     params: {
         api_key: "048aa1eeba36d0b1a3c7d78f14379ccf", //환경변수로 값을 셋팅하도록 한다.
-        language: "KR"
+        language: "ko-KR",
+        region : "KR"
     }
 })
 
