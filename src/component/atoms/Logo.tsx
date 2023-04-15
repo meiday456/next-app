@@ -14,17 +14,14 @@ const LogoStyle = styled.a`
     display: block;
     width: 100%;
   }
-`
+`;
 
 const Logo = ({onClick}: ButtonProps): React.ReactElement => {
-
-    return <LogoStyle>
-        <img
-            alt="Disney Plus Logo"
-            src="/images/logo.svg"
-            onClick={onClick}
-        />
+  return (
+    <LogoStyle>
+      <img alt="Disney Plus Logo" src="/images/logo.svg" onClick={onClick} />
     </LogoStyle>
-}
+  );
+};
 
 export default Logo;

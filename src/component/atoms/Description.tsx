@@ -9,17 +9,14 @@ const DescriptionStyle = styled.p`
   font-size: 1rem;
   max-width: 400px;
   height: 80px;
-`
+`;
 
 interface Props {
-    children : ReactNode
+  children: ReactNode;
 }
 
-const Description = ({children}:Props):ReactElement=>{
+const Description = ({children}: Props): ReactElement => {
+  return <DescriptionStyle>{children}</DescriptionStyle>;
+};
 
-    return (
-        <DescriptionStyle>{children}</DescriptionStyle>
-    )
-}
-
-export default Description
+export default Description;

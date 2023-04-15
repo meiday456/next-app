@@ -2,56 +2,57 @@ import type {AppProps} from "next/app";
 import React from "react";
 import Navigation from "@/component/organisms/Navigation";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
-
-import emotionReset from 'emotion-reset';
-import {Global, css} from '@emotion/react';
+import {RecoilRoot} from "recoil";
+import emotionReset from "emotion-reset";
+import {css, Global} from "@emotion/react";
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools";
 
-
 const queryClient = new QueryClient({
-    defaultOptions: {
-        queries: {
-            useErrorBoundary: true,
-            staleTime: 10000,
-            cacheTime: 300000
-        },
-        mutations: {
-            useErrorBoundary: true
-        }
-    }
-})
+  defaultOptions: {
+    queries: {
+      useErrorBoundary: true,
+      staleTime: 10000,
+      cacheTime: 300000,
+    },
+    mutations: {
+      useErrorBoundary: true,
+    },
+  },
+});
 
 export default function MyApp({Component, pageProps}: AppProps) {
-    return (
-        <>
-            <Global styles={css`
-              ${emotionReset};
+  return (
+    <>
+      <Global
+        styles={css`
+          ${emotionReset};
 
-              body {
-                background-color: #040714;
-                color: #f9f9f9;
-                font-family: Avenir-Roman, sans-serif;
-                margin: 0;
-                padding: 0;
-              }
+          body {
+            background-color: #040714;
+            color: #f9f9f9;
+            font-family: Avenir-Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+          }
 
-              a {
-                color: #f9f9f9;
-                text-decoration: none;
-              }
+          a {
+            color: #f9f9f9;
+            text-decoration: none;
+          }
+        `}
+      />
 
-            `}/>
-            <QueryClientProvider client={queryClient}>
-                {process.env.NODE_ENV !== 'production' ? <ReactQueryDevtools initialIsOpen={false} /> : null}
-                <Navigation></Navigation>
-                <Component {...pageProps} />
-            </QueryClientProvider>
-
-        </>
-
-    )
-
-
+      <QueryClientProvider client={queryClient}>
+        <RecoilRoot>
+          {process.env.NODE_ENV !== "production" ? (
+            <ReactQueryDevtools initialIsOpen={false} />
+          ) : null}
+          <Navigation></Navigation>
+          <Component {...pageProps} />
+        </RecoilRoot>
+      </QueryClientProvider>
+    </>
+  );
 }
 
 /*

@@ -2,9 +2,8 @@ import React from "react";
 import styled from "@emotion/styled";
 import {ButtonProps} from "@/types/ButtonType";
 
-
 const LoginStyle = styled.a`
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 8px 16px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -18,8 +17,8 @@ const LoginStyle = styled.a`
   }
 `;
 
-const Login = ({onClick}:ButtonProps):React.ReactElement=>{
-    return <LoginStyle onClick={onClick}>LOGIN</LoginStyle>
-}
+const Login = ({onClick}: ButtonProps): React.ReactElement => {
+  return <LoginStyle onClick={onClick}>LOGIN</LoginStyle>;
+};
 
 export default Login;

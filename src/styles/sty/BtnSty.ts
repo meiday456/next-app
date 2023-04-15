@@ -1,6 +1,5 @@
 import {css} from "@emotion/react";
 
-
 export const CommonBtnStyle = css`
   display: flex;
   justify-content: start;
@@ -13,9 +12,9 @@ export const CommonBtnStyle = css`
   padding: 0.4rem 1rem;
   margin-right: 1rem;
 
-  &:hover{
+  &:hover {
     color: #000;
     background-color: rgba(170, 170, 170, 0.9);
     transition: all 0.2s;
   }
-`
+`;
