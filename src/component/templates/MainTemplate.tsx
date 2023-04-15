@@ -25,6 +25,15 @@ const Container = styled.main`
 `;
 
 const MainTemplate = (): ReactElement => {
+
+
+
+
+
+
+
+
+
   return (
     <Container>
       <Banner></Banner>
