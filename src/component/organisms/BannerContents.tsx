@@ -29,7 +29,9 @@ const BannerContents = (): ReactElement => {
     error: detailError,
   } = useMovieDetail(
     {},
-    () => {},
+    () => {
+      return;
+    },
     nowData?.results[Math.floor(Math.random() * nowData?.results.length)].id ??
       333339,
   );

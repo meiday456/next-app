@@ -41,8 +41,16 @@ const Navigation = (): React.ReactElement => {
 
   return (
     <NavigationStyle show={show}>
-      <Logo onClick={() => {}} />
-      <Login onClick={() => {}}></Login>
+      <Logo
+        onClick={() => {
+          return;
+        }}
+      />
+      <Login
+        onClick={() => {
+          return;
+        }}
+      ></Login>
       {/*<UserInfo></UserInfo>*/}
     </NavigationStyle>
   );
