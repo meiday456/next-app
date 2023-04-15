@@ -1,4 +1,3 @@
-import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Banner from "@/component/organisms/Banner";
 
@@ -24,7 +23,7 @@ const Container = styled.main`
   }
 `;
 
-const MainTemplate = (): ReactElement => {
+const MainTemplate = () => {
   return (
     <Container>
       <Banner></Banner>
