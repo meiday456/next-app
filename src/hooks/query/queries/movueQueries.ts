@@ -1,7 +1,7 @@
 import {useQuery, UseQueryOptions, UseQueryResult} from "@tanstack/react-query";
 import queryKeys from "@/hooks/query/keys/queryKeys";
 import {getMovieDetail, getMovieNow} from "@/hooks/query/apis/movie";
-import {Detail, Now} from "@/types/MovieType";
+import {Detail, Now} from "@/types/data/MovieType";
 import {AxiosError} from "axios";
 
 export const useMovieNowContents = (

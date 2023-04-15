@@ -13,13 +13,20 @@
     "ecmaFeatures": {
       "globalReturn": false,
       "jsx": true
-    }
+    },
+    "project": ["./tsconfig.json"]
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/strict",
+    "plugin:react/recommended",
     "next/core-web-vitals",
+    "next",
     "plugin:testing-library/react",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
     "plugin:prettier/recommended",
     "prettier"
   ],

@@ -21,12 +21,12 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"],
-      "@/styles/*": ["styles/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/styles/*": ["./src/styles/*"],
       "test-utils": ["./utils/test-utils"],
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "types.d.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "types.d.ts", "next.config.js"],
   "exclude": ["node_modules"]
 }
