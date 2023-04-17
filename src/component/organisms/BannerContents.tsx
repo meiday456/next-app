@@ -6,7 +6,7 @@ import Description from "@/component/atoms/Description";
 import {
   useMovieDetail,
   useMovieNowContents,
-} from "@/hooks/query/queries/movueQueries";
+} from "@/hooks/query/queries/movieQueries";
 
 const BannerContentsStyle = styled.div`
   margin-left: 40px;
@@ -28,11 +28,7 @@ const BannerContents = (): ReactElement => {
     data: detailData,
     error: detailError,
   } = useMovieDetail(
-    {},
-    () => {
-      return;
-    },
-    nowData?.results[Math.floor(Math.random() * nowData?.results.length)].id ??
+    nowData?.results[Math.floor(Math.random() * nowData.results.length)].id ??
       333339,
   );
 
