@@ -6,9 +6,7 @@ import {AxiosError} from "axios";
 
 export const useMovieNowContents = (
   options: UseQueryOptions<Now, AxiosError> = {},
-  onSuccess: () => void = () => {
-    return;
-  },
+  onSuccess: () => void = () => {},
 ): UseQueryResult<Now, AxiosError> => {
   return useQuery<Now, AxiosError>({
     queryKey: queryKeys.movie.query.now(),
@@ -19,11 +17,9 @@ export const useMovieNowContents = (
 };
 
 export const useMovieDetail = (
-  options: UseQueryOptions<Detail, AxiosError> = {},
-  onSuccess: () => void = () => {
-    return;
-  },
   id: number,
+  options: UseQueryOptions<Detail, AxiosError> = {},
+  onSuccess: () => void = () => {},
 ): UseQueryResult<Detail, AxiosError> => {
   return useQuery({
     queryKey: queryKeys.movie.query.detail(id),

@@ -1,5 +1,6 @@
-import {render, screen} from "@testing-library/react";
+import {fireEvent, render, screen} from "@testing-library/react";
 import Button from "@/component/atoms/Button";
+import BannerBtns from "@/component/molecules/BannerBtns";
 
 describe("button test", () => {
   it("버튼의 text 출력 확인", () => {
@@ -16,5 +17,13 @@ describe("button test", () => {
 
     const buttonEl = screen.getByText(text);
     expect(buttonEl).toBeInTheDocument();
+  });
+});
+
+describe("Banner Btn", () => {
+  it("Banner Btn show?", () => {
+    const {container} = render(<BannerBtns />);
+    expect(container).toHaveTextContent("Play");
+    fireEvent.click(container);
   });
 });
