@@ -16,17 +16,13 @@ ApiUtils.interceptors.request.use(
     config.headers["Content-Type"] = "application/json; charset=utf-8";
     return config;
   },
-  error => {
-    return;
-  },
+  error => {},
 );
 ApiUtils.interceptors.response.use(
   response => {
     return response;
   },
-  error => {
-    return;
-  },
+  error => {},
 );
 
 export default ApiUtils;
