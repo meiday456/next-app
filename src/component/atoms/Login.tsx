@@ -12,7 +12,7 @@ const LoginStyle = styled.a`
 
   &:hover {
     background-color: #f9f9f9;
-    color: gray;
+    color: #808080;
     border-color: transparent;
   }
 `;

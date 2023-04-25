@@ -9,15 +9,12 @@ const Container = styled.main`
   top: 72px;
   padding: 0 calc(3.5vw + 5px);
 
-  &:after {
+  &::after {
     background: url("/images/home-background.png") center center / cover
       no-repeat fixed;
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    inset: 0px;
+    inset: 0;
     opacity: 1;
     z-index: -1;
   }
