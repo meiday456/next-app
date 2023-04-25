@@ -5,8 +5,8 @@ import {ButtonProps} from "@/types/ButtonType";
 
 const PlayBtnStyle = styled.button`
   ${CommonBtnStyle};
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
 `;
 
 interface Props extends ButtonProps {

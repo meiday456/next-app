@@ -5,15 +5,8 @@ import BannerBtns from "@/component/molecules/BannerBtns";
 describe("button test", () => {
   it("버튼의 text 출력 확인", () => {
     const text = "문자출력";
-    const {container} = render(
-      <Button
-        onClick={() => {
-          return;
-        }}
-      >
-        {text}
-      </Button>,
-    );
+    const onClickHandler = jest.fn();
+    render(<Button onClick={onClickHandler}>{text}</Button>);
 
     const buttonEl = screen.getByText(text);
     expect(buttonEl).toBeInTheDocument();

@@ -3,7 +3,6 @@
   "bracketSpacing": false,
   "endOfLine": "auto",
   "htmlWhitespaceSensitivity": "css",
-  "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "printWidth": 80,
   "proseWrap": "preserve",
@@ -11,13 +10,17 @@
   "semi": true,
   "tabWidth": 2,
   "trailingComma": "all",
-  "parser": "typescript",
   "rangeStart": 0,
   "overrides": [
     {
       "files": "*.json",
       "options": {
         "printWidth": 200
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
       }
     }
   ]

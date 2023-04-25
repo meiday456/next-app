@@ -2,13 +2,13 @@ import React from "react";
 import styled from "@emotion/styled";
 import {ButtonProps} from "@/types/ButtonType";
 
-const LogoStyle = styled.a`
+const LogoStyle = styled.a<{width: number}>`
   padding: 0;
-  width: 80px;
+  width: ${props => props.width}px;
   margin-top: 4px;
   max-height: 70px;
   font-size: 0;
-  diplay: inline-block;
+  display: inline-block;
 
   img {
     display: block;
@@ -16,12 +16,20 @@ const LogoStyle = styled.a`
   }
 `;
 
-const Logo = ({onClick}: ButtonProps): React.ReactElement => {
+interface Props extends ButtonProps {
+  width: number;
+}
+
+const Logo = ({width, onClick}: Props): React.ReactElement => {
   return (
-    <LogoStyle>
+    <LogoStyle width={width}>
       <img alt="Disney Plus Logo" src="/images/logo.svg" onClick={onClick} />
     </LogoStyle>
   );
+};
+
+Logo.defaultProps = {
+  width: 80,
 };
 
 export default Logo;

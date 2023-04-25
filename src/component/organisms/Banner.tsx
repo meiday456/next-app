@@ -4,11 +4,11 @@ import BannerContents from "@/component/organisms/BannerContents";
 import FadeArea from "@/component/atoms/FadeArea";
 
 const BannerStyle = styled.header`
-  color: white;
+  color: #fff;
   object-fit: contain;
   height: 448px;
-  backgroundposition: "top center";
-  backgroundsize: "cover";
+  background-position: top;
+  background-size: cover;
 `;
 
 const Banner = (): ReactElement => {
