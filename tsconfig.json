@@ -27,6 +27,7 @@
       "@/*": [
         "./src/*"
       ],
+      "@/src/*" : ["./src/*"],
       "@/components/*": [
         "./src/components/*"
       ],
@@ -44,6 +45,7 @@
     "**/*.tsx",
     "./*.d.ts",
     ".next/types/**/*.ts",
+    "jest.setup.js"
   ],
   "exclude": [
     "node_modules"

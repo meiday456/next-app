@@ -10,6 +10,7 @@
     "stylelint": "stylelint \"**/*.{css,scss,ts,tsx}\" --cache --fix",
     "test": "jest",
     "test:w": "jest --watch",
+    "test:c" : "jest --coveage",
     "test:ci": "jest --coverage --silent --ci",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
