@@ -3,7 +3,7 @@ import {CommonBtnStyle} from "@/styles/sty/BtnSty";
 import {ReactElement, ReactNode} from "react";
 import {ButtonProps} from "@/types/ButtonType";
 
-const PlayBtnStyle = styled.button`
+const BtnStyle = styled.button`
   ${CommonBtnStyle};
   background-color: #fff;
   color: #000;
@@ -14,7 +14,7 @@ interface Props extends ButtonProps {
 }
 
 const Button = ({children, onClick}: Props): ReactElement => {
-  return <PlayBtnStyle onClick={onClick}>{children}</PlayBtnStyle>;
+  return <BtnStyle onClick={onClick}>{children}</BtnStyle>;
 };
 
 export default Button;

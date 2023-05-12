@@ -1,6 +1,6 @@
 import type {AppProps} from "next/app";
 import React from "react";
-import Navigation from "@/component/organisms/Navigation";
+import Navigation from "@/components/organisms/Navigation";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {RecoilRoot} from "recoil";
 import emotionReset from "emotion-reset";

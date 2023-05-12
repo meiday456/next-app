@@ -8,9 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "stylelint": "stylelint \"**/*.{css,scss,ts,tsx}\" --cache --fix",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
     "test": "jest",
     "test:w": "jest --watch",
-    "test:c" : "jest --coveage",
+    "test:c" : "jest --coverage",
     "test:ci": "jest --coverage --silent --ci",
     "lint-staged": "lint-staged",
     "prepare": "husky install"

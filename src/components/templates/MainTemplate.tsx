@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
-import Banner from "@/component/organisms/Banner";
+import Banner from "@/components/organisms/Banner";
+import {useMovieNowContents} from "@/hooks/query/queries/movieQueries";
 
 const Container = styled.main`
   position: relative;

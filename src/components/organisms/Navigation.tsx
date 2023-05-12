@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styled from "@emotion/styled";
-import Logo from "@/component/atoms/Logo";
-import Login from "@/component/atoms/Login";
+import Logo from "@/components/atoms/Logo";
+import Login from "@/components/atoms/Login";
 
 const NavigationStyle = styled.nav<{show: boolean}>`
   position: fixed;
