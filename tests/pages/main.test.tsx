@@ -18,6 +18,7 @@ describe("home test", () => {
         <Main />,
       </QueryClientProvider>,
     );
+
     const {result} = renderHook(() => useMovieNowContents(), {wrapper});
     return {result, container};
   };
@@ -28,7 +29,7 @@ describe("home test", () => {
       await waitFor(() => expect(result.current.isSuccess).toBe(true));
       expect(screen.getByText(/설명/)).toBeInTheDocument();
 
-      const h1El = await screen.findByRole("h1");
+      const h1El = await screen.findByRole("heading");
       expect(h1El).toHaveTextContent(/레디/);
     });
   });

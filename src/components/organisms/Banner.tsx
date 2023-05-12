@@ -15,8 +15,7 @@ const BannerStyle = styled.header`
 const Banner = (): ReactElement => {
   const {isLoading, isError, data, error} = useMovieNowContents();
 
-  const nowPlayMovieId =
-    data?.results[Math.floor(Math.random() * data.results.length)].id;
+  const nowPlayMovieId = data?.results[Math.floor(Math.random() * data.results.length)].id;
 
   return (
     <BannerStyle>

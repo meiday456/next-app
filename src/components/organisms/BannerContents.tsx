@@ -2,7 +2,7 @@ import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Title from "@/components/atoms/Title";
 import Description from "@/components/atoms/Description";
-import {useMovieDetail} from "@/hooks/query/queries/movieQueries";
+import {useMovieDetail, useMovieDetailVideos} from "@/hooks/query/queries/movieQueries";
 import Button from "@/components/atoms/Button";
 
 const BannerContentsStyle = styled.div`
@@ -15,8 +15,13 @@ interface Props {
   nowPlayMovieId: number;
 }
 
+//보여줄 비디오가 없다면 포스터를 표출하게 한다.
 const BannerContents = ({nowPlayMovieId}: Props): ReactElement => {
   const {isLoading, isError, data, error} = useMovieDetail(nowPlayMovieId, {
+    enabled: !!nowPlayMovieId,
+  });
+
+  const {data: videos} = useMovieDetailVideos(nowPlayMovieId, {
     enabled: !!nowPlayMovieId,
   });
 

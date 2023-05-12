@@ -6,17 +6,3 @@ const Main = (): React.ReactElement => {
 };
 
 export default Main;
-
-// export const getServerSideProps: GetServerSideProps = async (
-//   context: GetServerSidePropsContext,
-// ) => {
-//   const nowMovies = await getMovieNow();
-//   console.log(nowMovies.results.length);
-//   const index = Math.floor(Math.random() * nowMovies.results.length);
-//
-//   return {
-//     props: {
-//       nowPlayMovieId: index,
-//     },
-//   };
-// };

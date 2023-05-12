@@ -1,5 +1,5 @@
 import ApiUtils from "@/utils/ApiUtils";
-import {Detail, Now} from "@/types/data/MovieType";
+import {Detail, Now, Video} from "@/types/data/MovieType";
 import urls from "@/utils/Urls";
 
 export const getMovieNow = async () => {
@@ -9,5 +9,10 @@ export const getMovieNow = async () => {
 
 export const getMovieDetail = async (id: number) => {
   const {data} = await ApiUtils.get<Detail>(urls.movie.detail(id));
+  return data;
+};
+
+export const getMovieDetailVideos = async (id: number) => {
+  const {data} = await ApiUtils.get<Video>(urls.movie.detail_videos(id));
   return data;
 };
