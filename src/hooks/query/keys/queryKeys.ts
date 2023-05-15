@@ -8,4 +8,12 @@ const movie = {
   },
 };
 
-export default {movie};
+const common = {
+  all: ["common"],
+  allQuery: () => [...common.all, "query"],
+  query: {
+    trending: () => [...common.allQuery(), "trending"],
+  },
+};
+
+export default {movie, common};

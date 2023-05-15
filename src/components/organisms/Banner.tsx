@@ -43,7 +43,7 @@ const Banner = (): ReactElement => {
 
   return (
     <BannerStyle>
-      <BannerImage src={urls.movie.image(detail?.backdrop_path ?? "")} alt={`${detail?.title ?? ""}_이미지`} />
+      <BannerImage src={urls.common.image(detail?.backdrop_path ?? "")} alt={`${detail?.title ?? ""}_이미지`} />
       <BannerContents info={detail}></BannerContents>
     </BannerStyle>
   );
