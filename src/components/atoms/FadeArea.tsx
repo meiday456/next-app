@@ -3,12 +3,9 @@ import {ReactElement} from "react";
 
 const FadeStyle = styled.div<Props>`
   height: ${props => props.height}rem;
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
+  position: relative;
+  z-index: 2;
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 `;
 
 interface Props {

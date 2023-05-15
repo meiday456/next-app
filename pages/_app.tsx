@@ -7,6 +7,8 @@ import emotionReset from "emotion-reset";
 import {css, Global} from "@emotion/react";
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools";
 
+import "./_app.scss";
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -44,9 +46,7 @@ export default function MyApp({Component, pageProps}: AppProps) {
 
       <QueryClientProvider client={queryClient}>
         <RecoilRoot>
-          {process.env.NODE_ENV !== "production" ? (
-            <ReactQueryDevtools initialIsOpen={false} />
-          ) : null}
+          {process.env.NODE_ENV !== "production" ? <ReactQueryDevtools initialIsOpen={false} /> : null}
           <Navigation></Navigation>
           <Component {...pageProps} />
         </RecoilRoot>

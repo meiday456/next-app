@@ -8,7 +8,7 @@ const NavigationStyle = styled.nav<{show: boolean}>`
   top: 0;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 4.3rem;
   background-color: ${props => (props.show ? "#090b13" : "transparent")};
   display: flex;
   justify-content: space-between;
