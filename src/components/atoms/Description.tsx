@@ -1,5 +1,6 @@
 import {ReactElement, ReactNode} from "react";
 import styled from "@emotion/styled";
+import {ChildrenProps} from "@/types/common";
 
 const DescriptionStyle = styled.p`
   width: 45rem;
@@ -8,14 +9,10 @@ const DescriptionStyle = styled.p`
   font-weight: 500;
   font-size: 1rem;
   max-width: 400px;
-  height: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 `;
 
-interface Props {
-  children: ReactNode;
-}
-
-const Description = ({children}: Props): ReactElement => {
+const Description = ({children}: ChildrenProps): ReactElement => {
   return <DescriptionStyle>{children}</DescriptionStyle>;
 };
 

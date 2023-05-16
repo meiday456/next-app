@@ -27,14 +27,8 @@
       "@/*": [
         "./src/*"
       ],
-      "@/components/*": [
-        "./src/components/*"
-      ],
-      "@/pages/*": [
+      "$/pages/*": [
         "./pages/*"
-      ],
-      "@/styles/*": [
-        "./src/styles/*"
       ],
       "$/fixture/*" : ["./fixture/*"]
     }
@@ -44,6 +38,7 @@
     "**/*.tsx",
     "./*.d.ts",
     ".next/types/**/*.ts",
+    "jest.setup.js"
   ],
   "exclude": [
     "node_modules"

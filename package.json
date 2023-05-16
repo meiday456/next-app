@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "stylelint": "stylelint \"**/*.{css,scss,ts,tsx}\" --cache --fix",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
     "test": "jest",
     "test:w": "jest --watch",
+    "test:c": "jest --coverage",
     "test:ci": "jest --coverage --silent --ci",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
@@ -31,6 +33,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recoil": "^0.7.7",
+    "swiper": "^9.3.1",
     "tailwindcss": "3.3.1"
   },
   "devDependencies": {
@@ -60,6 +63,7 @@
     "postcss-styled-syntax": "^0.4.0",
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.7",
+    "sass": "^1.62.1",
     "stylelint": "^15.6.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-config-standard-scss": "^9.0.0",

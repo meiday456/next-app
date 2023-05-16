@@ -6,25 +6,25 @@
   "genres": [
     {
       "id": 878,
-      "name": "Science Fiction"
+      "name": "SF"
     },
     {
       "id": 12,
-      "name": "Adventure"
+      "name": "모험"
     },
     {
       "id": 28,
-      "name": "Action"
+      "name": "액션"
     }
   ],
-  "homepage": "http://readyplayeronemovie.com",
+  "homepage": "",
   "id": 333339,
   "imdb_id": "tt1677720",
   "original_language": "en",
   "original_title": "Ready Player One",
-  "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+  "overview": "2045년, 암울한 현실과 달리 가상현실 오아시스에서는 누구든 원하는 캐릭터로 상상하는 모든 걸 할 수 있다. 웨이드 와츠의 유일한 낙은 오아시스에 접속하는 것. 어느 날 오아시스의 창시자인 괴짜 천재 제임스 할리데이는 자신이 가상현실 속에 숨겨둔 3개의 미션에서 우승하는 사람에게 오아시스의 소유권과 막대한 유산을 상속한다는 유언을 남기고, 그가 사랑했던 80년대 대중문화 속에 힌트가 있음을 알린다. 와츠가 첫 번째 수수께끼를 푸는 데 성공하자 이를 저지하기 위해 현실에서 살인도 마다하지 않는 IOI라는 거대 기업이 뛰어드는데...",
   "popularity": 59.715,
-  "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+  "poster_path": "/j4TIfwFrm8WnckByTnMFEAuIVju.jpg",
   "production_companies": [
     {
       "id": 56,
@@ -86,9 +86,9 @@
     }
   ],
   "status": "Released",
-  "tagline": "A better reality awaits.",
-  "title": "Ready Player One",
+  "tagline": "로그인하는 순간, 모든 것이 현실이 된다",
+  "title": "레디 플레이어 원",
   "video": false,
   "vote_average": 7.61,
-  "vote_count": 14005
+  "vote_count": 14006
 }

@@ -11,6 +11,15 @@ const config = {
     "^@/src/(.*)$": "<rootDir>/src/$1",
   },
   setupFilesAfterEnv: ["jest-plugin-context/setup", "<rootDir>/jest.setup.js"],
+  collectCoverageFrom :[
+    "./pages/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "!./pages/api/**",
+    "!./pages/_app.tsx",
+    "!./pages/_document.tsx",
+    "!./src/mocks/**",
+    "!./src/types/**"
+  ],
   coverageThreshold: {
     global: {
       branches: 80,

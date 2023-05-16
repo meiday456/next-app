@@ -1,4 +1,4 @@
-import MainTemplate from "@/component/templates/MainTemplate";
+import MainTemplate from "@/components/templates/MainTemplate";
 import React from "react";
 
 const Main = (): React.ReactElement => {

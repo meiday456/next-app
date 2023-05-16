@@ -23,13 +23,13 @@ interface Props extends ButtonProps {
 const Logo = ({width, onClick}: Props): React.ReactElement => {
   return (
     <LogoStyle width={width}>
-      <img alt="Disney Plus Logo" src="/images/logo.svg" onClick={onClick} />
+      <img alt="Logo" src="/images/logo2.svg" onClick={onClick} />
     </LogoStyle>
   );
 };
 
 Logo.defaultProps = {
-  width: 80,
+  width: 140,
 };
 
 export default Logo;

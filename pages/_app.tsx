@@ -1,11 +1,13 @@
 import type {AppProps} from "next/app";
 import React from "react";
-import Navigation from "@/component/organisms/Navigation";
+import Navigation from "@/components/organisms/Navigation";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {RecoilRoot} from "recoil";
 import emotionReset from "emotion-reset";
 import {css, Global} from "@emotion/react";
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools";
+
+import "./_app.scss";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -44,9 +46,7 @@ export default function MyApp({Component, pageProps}: AppProps) {
 
       <QueryClientProvider client={queryClient}>
         <RecoilRoot>
-          {process.env.NODE_ENV !== "production" ? (
-            <ReactQueryDevtools initialIsOpen={false} />
-          ) : null}
+          {process.env.NODE_ENV !== "production" ? <ReactQueryDevtools initialIsOpen={false} /> : null}
           <Navigation></Navigation>
           <Component {...pageProps} />
         </RecoilRoot>
