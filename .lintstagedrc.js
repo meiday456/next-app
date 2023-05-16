@@ -7,7 +7,11 @@ const buildEslintCommand = filenames =>
 
 module.exports = {
   "*.{js,jsx}": buildEslintCommand,
-  "*.{ts,tsx}": [buildEslintCommand, 'stylelint "**/*.{ts,tsx}" --cache --fix'],
+  "*.{ts,tsx}": [
+    buildEslintCommand,
+    'stylelint "**/*.{ts,tsx}" --cache --fix',
+    'tsc-files --noEmit --incremental false'
+  ],
   "**/*.css": 'stylelint "**/*.{css,scss,sass}" --cache --fix',
   "./src/**": "prettier --cache --write --ignore-unknown ",
   "./pages/**": "prettier --cache --write --ignore-unknown ",

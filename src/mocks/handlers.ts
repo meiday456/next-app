@@ -6,17 +6,17 @@ import vidoes from "$/fixture/movie/videos.json";
 
 export const handlers = [
   // now movies
-  rest.get(`${Urls.movie.base}${Urls.movie.now}`, (req, res, ctx) => {
+  rest.get(`${Urls.common.base}${Urls.movie.now}`, (req, res, ctx) => {
     return res(ctx.status(200), ctx.json(nowMovies));
   }),
 
   //detail
-  rest.get(`${Urls.movie.base}/movie/:id`, (req, res, ctx) => {
+  rest.get(`${Urls.common.base}/movie/:id`, (req, res, ctx) => {
     return res(ctx.status(200), ctx.json(movieDetail));
   }),
 
   //detail_videos
-  rest.get(`${Urls.movie.base}/movie/:id/videos`, (req, res, ctx) => {
+  rest.get(`${Urls.common.base}/movie/:id/videos`, (req, res, ctx) => {
     return res(ctx.status(200), ctx.json(vidoes));
   }),
 ];
