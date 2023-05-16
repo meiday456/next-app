@@ -51,6 +51,7 @@
   },
   "ignorePatterns": [
     "*.config.js",
+    "*.config.mjs",
     "*.setup.js"
   ]
 }
