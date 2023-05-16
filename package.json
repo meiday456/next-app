@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "stylelint": "stylelint \"**/*.{css,scss,ts,tsx}\" --cache --fix",
-    "typecheck": "tsc -p ./tsconfig.json --noEmit",
+    "typecheck": "tsc -p ./tsconfig.json --noEmit --incremental false",
     "test": "jest",
     "test:w": "jest --watch",
     "test:c": "jest --coverage",
