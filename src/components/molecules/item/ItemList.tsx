@@ -8,12 +8,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import {ContentsList} from "@/types/data/CommonType";
 
 const ItemListSection = styled.section`
   margin-bottom: 1.5rem;
 `;
 
-const ItemList = (): React.ReactElement => {
+interface Props {
+  info: ContentsList;
+}
+
+const ItemList = ({info}: Props): React.ReactElement => {
   const breakpoints = {
     0: {
       spaceBetween: 6,
@@ -41,43 +46,30 @@ const ItemList = (): React.ReactElement => {
       slidesPerGroup: 7,
     },
   };
+
   return (
     <ItemListSection className={"item-list"}>
-      <ListTitle title={"임의로 삽입한 제목"} />
+      <ListTitle title={info.title} />
       <Swiper
         modules={[Navigation, Pagination, A11y, Mousewheel]}
         spaceBetween={50}
-        slidesPerView={"auto"} //viewport에 따라서 표출하는 갯수를 다르게 해야한다.
-        onSlideChange={() => console.log("slide change")}
+        slidesPerView={"auto"}
+        onSlideChange={() => {}}
         navigation
         mousewheel={{forceToAxis: true}}
         pagination={{clickable: true}}
         scrollbar={{draggable: true}}
         breakpoints={breakpoints}
         watchOverflow
-        onSwiper={swiper => console.log(swiper)}
+        onSwiper={swiper => {}}
       >
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Item />
-        </SwiperSlide>
+        {info.list.map(contents => {
+          return (
+            <SwiperSlide key={contents.id}>
+              <Item {...contents} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </ItemListSection>
   );

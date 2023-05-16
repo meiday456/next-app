@@ -1,10 +1,16 @@
-import {CommonResult} from "./CommonType";
-export interface Now {
+import {CommonResponse, CommonResult} from "./CommonType";
+export interface Now extends CommonResponse<MovieResult> {
   dates: Dates;
-  page: number;
-  results: CommonResult[];
-  total_pages: number;
-  total_results: number;
+}
+
+export type Popular = CommonResponse<MovieResult>;
+
+export interface MovieResult extends CommonResult {
+  adult: boolean;
+  original_title: string;
+  release_date: string;
+  title: string;
+  video: boolean;
 }
 
 export interface Dates {

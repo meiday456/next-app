@@ -8,6 +8,7 @@ const ApiUtils = axios.create({
     api_key: process.env.NEXT_PUBLIC_API_KEY,
     language: "ko-KR",
     region: "KR",
+    timezone: "Asia/Seoul",
   },
 });
 

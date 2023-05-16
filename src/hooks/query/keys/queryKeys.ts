@@ -13,6 +13,7 @@ const common = {
   allQuery: () => [...common.all, "query"],
   query: {
     trending: () => [...common.allQuery(), "trending"],
+    contents: () => [...common.allQuery(), "contents"],
   },
 };
 

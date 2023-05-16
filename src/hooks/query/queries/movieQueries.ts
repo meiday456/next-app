@@ -1,6 +1,6 @@
 import {useQuery, UseQueryOptions, UseQueryResult} from "@tanstack/react-query";
 import queryKeys from "@/hooks/query/keys/queryKeys";
-import {getMovieDetail, getMovieNow, getMovieDetailVideos} from "@/hooks/query/apis/movie";
+import {getMovieDetail, getNowMovie, getMovieDetailVideos} from "@/hooks/query/apis/movie";
 import {Detail, Now, Video} from "@/types/data/MovieType";
 import {AxiosError} from "axios";
 
@@ -10,7 +10,7 @@ export const useMovieNowContents = (
 ): UseQueryResult<Now, AxiosError> => {
   return useQuery<Now, AxiosError>({
     queryKey: queryKeys.movie.query.now(),
-    queryFn: () => getMovieNow(),
+    queryFn: () => getNowMovie(),
     onSuccess,
     ...options,
   });

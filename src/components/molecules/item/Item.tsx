@@ -1,5 +1,7 @@
 import styled from "@emotion/styled";
 import Image from "next/image";
+import {CommonResult} from "@/types/data/CommonType";
+import urls from "@/utils/Urls";
 
 const ItemStyle = styled.div`
   width: 100%;
@@ -12,12 +14,16 @@ const ItemStyle = styled.div`
   }
 `;
 
-const Item = (): React.ReactElement => {
+interface Props extends CommonResult {
+  title?: string;
+  name?: string;
+}
+const Item = (props: Props): React.ReactElement => {
   return (
     <ItemStyle>
       <Image
-        src={"https://image.tmdb.org/t/p/original/m321d503h4Ydnv6V2I5QTU96PCq.jpg"}
-        alt={"대체 텍스트"}
+        src={urls.common.image(props.backdrop_path ?? "")}
+        alt={`${props.title || props.name || "대체이미지"}`}
         fill={true}
         className={"image"}
       ></Image>

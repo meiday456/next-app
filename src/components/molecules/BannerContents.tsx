@@ -4,7 +4,7 @@ import Title from "@/components/atoms/Title";
 import Description from "@/components/atoms/Description";
 import {useMovieDetail, useMovieDetailVideos} from "@/hooks/query/queries/movieQueries";
 import Button from "@/components/atoms/Button";
-import {Detail} from "@/types/data/MovieType";
+import {Detail, MovieResult} from "@/types/data/MovieType";
 import urls from "@/utils/Urls";
 import BannerImage from "@/components/molecules/BannerImage";
 
@@ -16,7 +16,7 @@ const BannerContentsStyle = styled.div`
 `;
 
 interface Props {
-  info: Detail;
+  info: MovieResult;
 }
 
 const BannerContents = ({info}: Props): ReactElement => {
