@@ -7,8 +7,6 @@ const Container = styled.section`
 `;
 
 const ContentsContainer = (): React.ReactElement => {
-  //TODO 전체리스트를 가져와서 데이터를 표출
-
   const {data, isLoading, isError, isFetching} = useContentsList();
 
   return (

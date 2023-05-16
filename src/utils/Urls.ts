@@ -1,8 +1,10 @@
-import {time_window} from "@/types/data/CommonType";
+import {ImageType, Time_window} from "@/types/data/CommonType";
+import {getItemImgWPath} from "@/utils/CommonUtils";
 const common = {
   base: `https://api.themoviedb.org/3`,
-  image: (path: string) => `https://image.tmdb.org/t/p/original/${path}`,
-  trending: (tw: time_window = "day") => `/trending/all/${tw}`,
+  image: (path: string, type?: ImageType, width: 200 | 300 | 400 | 500 | number = 1920) =>
+    `https://image.tmdb.org/t/p/${getItemImgWPath(width, type)}${path}`,
+  trending: (tw: Time_window = "day") => `/trending/all/${tw}`,
 };
 
 const movie = {

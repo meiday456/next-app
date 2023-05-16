@@ -45,7 +45,7 @@ const Banner = (): ReactElement => {
   return (
     <BannerStyle>
       <BannerImage
-        src={urls.common.image(bannerMovie?.backdrop_path ?? "")}
+        src={urls.common.image(bannerMovie?.backdrop_path ?? "", "banner")}
         alt={`${bannerMovie?.title ?? ""}_이미지`}
       />
       <BannerContents info={bannerMovie}></BannerContents>
