@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "ANALYZE=true next build",
     "start": "next start",
     "lint": "next lint",
     "stylelint": "stylelint \"**/*.{css,scss,ts,tsx}\" --cache --fix",
@@ -37,6 +37,7 @@
     "tailwindcss": "3.3.1"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.4.2",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.20.0",
     "@testing-library/jest-dom": "^5.16.5",

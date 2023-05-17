@@ -1,9 +1,12 @@
 /** @type {import("next").NextConfig} */
 const StylelintPlugin = require("stylelint-webpack-plugin");
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
+
 
 const nextConfig = {
   experimental: {
-    // appDir: true,
   },
   images: {
     domains: ["image.tmdb.org"],
@@ -19,4 +22,6 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = (phase, defaultConfig)=>{
+  return withBundleAnalyzer(defaultConfig)
+}
