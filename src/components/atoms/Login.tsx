@@ -18,7 +18,11 @@ const LoginStyle = styled.a`
 `;
 
 const Login = ({onClick}: ButtonProps): React.ReactElement => {
-  return <LoginStyle onClick={onClick}>LOGIN</LoginStyle>;
+  return (
+    <LoginStyle onClick={onClick} href={"#"}>
+      LOGIN
+    </LoginStyle>
+  );
 };
 
 export default Login;

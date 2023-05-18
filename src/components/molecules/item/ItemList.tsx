@@ -1,13 +1,9 @@
-import {Swiper, SwiperSlide} from "swiper/react";
 import {A11y, Navigation, Pagination, Mousewheel} from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
 import Item from "@/components/molecules/item/Item";
 import styled from "@emotion/styled";
 import ListTitle from "@/components/molecules/item/ListTitle";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import {ContentsList} from "@/types/data/CommonType";
 
 const ItemListSection = styled.section`

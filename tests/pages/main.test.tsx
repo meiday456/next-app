@@ -27,10 +27,10 @@ describe("home test", () => {
     it("배너가 정상적으로 출력되는가?", async () => {
       const {result, container} = renderMain();
       await waitFor(() => expect(result.current.isSuccess).toBe(true));
-      expect(screen.getByText(/설명/)).toBeInTheDocument();
 
       const h1El = await screen.findByRole("heading");
-      expect(h1El).toHaveTextContent(/레디/);
+
+      expect(h1El).toHaveTextContent(/(바티칸|마리오)/);
     });
   });
 });

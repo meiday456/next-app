@@ -6,9 +6,7 @@ describe("Button", () => {
   const setup = () => {
     const clickHandler = jest.fn();
     const children = "표출문구";
-    const {container} = render(
-      <Button onClick={clickHandler}>{children}</Button>,
-    );
+    const {container} = render(<Button onClick={clickHandler}>{children}</Button>);
 
     return {
       clickHandler,

@@ -33,7 +33,6 @@
     "./tests/**/*",
     "./node_modules/**/*",
     "./public/**/*",
-    "./*.{ts,tsx}",
     "**/*.d.ts"
   ]
 }
