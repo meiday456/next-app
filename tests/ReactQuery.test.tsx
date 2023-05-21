@@ -3,6 +3,7 @@ import {useMovieNowContents} from "@/hooks/query/queries/movieQueries";
 
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {ReactNode} from "react";
+import {useContentsList} from "@/hooks/query/queries/commonQueries";
 
 describe("query test", () => {
   const queryClient = new QueryClient();
@@ -14,5 +15,11 @@ describe("query test", () => {
     const {result} = renderHook(() => useMovieNowContents(), {wrapper});
     await waitFor(() => expect(result.current.isSuccess).toBe(true));
     expect(result.current.data?.results).toHaveLength(2);
+  });
+
+  it("contents hook test", async () => {
+    const {result} = renderHook(() => useContentsList(), {wrapper});
+    await waitFor(() => expect(result.current.isSuccess).toBe(true));
+    expect(result.current.data).toHaveLength(5);
   });
 });

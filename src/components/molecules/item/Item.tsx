@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import Image from "next/image";
-import {CommonResult} from "@/types/data/CommonType";
+import {CommonResult, ImageType} from "@/types/data/CommonType";
 import urls from "@/utils/Urls";
 import {ImageLoaderProps} from "next/dist/shared/lib/image-config";
 
@@ -13,7 +13,8 @@ const ItemStyle = styled.div`
   object-fit: contain;
 
   & .image {
-    position: relative !important;
+    inset: 0;
+    object-fit: cover;
   }
 `;
 

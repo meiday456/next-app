@@ -2,11 +2,8 @@ import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Title from "@/components/atoms/Title";
 import Description from "@/components/atoms/Description";
-import {useMovieDetail, useMovieDetailVideos} from "@/hooks/query/queries/movieQueries";
 import Button from "@/components/atoms/Button";
-import {Detail, MovieResult} from "@/types/data/MovieType";
-import urls from "@/utils/Urls";
-import BannerImage from "@/components/molecules/BannerImage";
+import {MovieResult} from "@/types/data/MovieType";
 
 const BannerContentsStyle = styled.div`
   position: absolute;

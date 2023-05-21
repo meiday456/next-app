@@ -12,8 +12,6 @@ jest.mock("swiper", () => ({
   Scrollbar: (props) => null,
   A11y: (props) => null,
 }));
-beforeAll(() => {
-  server.listen();
-});
+beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
