@@ -21,7 +21,8 @@ const config = {
     "!./pages/_app.tsx",
     "!./pages/_document.tsx",
     "!./src/mocks/**",
-    "!./src/types/**"
+    "!./src/types/**",
+    "!./src/constants/**"
   ],
   coverageThreshold: {
     global: {

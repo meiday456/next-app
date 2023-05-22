@@ -13,7 +13,7 @@ interface Props {
 }
 
 const FadeArea = ({height}: Props): ReactElement => {
-  return <FadeStyle height={height} />;
+  return <FadeStyle height={height} role={"presentation"} aria-hidden />;
 };
 
 FadeArea.defaultProps = {

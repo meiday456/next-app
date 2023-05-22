@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import React from "react";
 import {ButtonProps} from "@/types/ButtonType";
 
-const DropDown = styled.div`
+const DropDownStyle = styled.div`
   position: absolute;
   top: 48px;
   right: 0;
@@ -17,12 +17,14 @@ const DropDown = styled.div`
   opacity: 0;
 `;
 
-const SignOut = ({onClick}: ButtonProps): React.ReactElement => {
+const DropDown = ({onClick}: ButtonProps): React.ReactElement => {
   return (
-    <DropDown>
-      <span onClick={onClick}>Sign Out</span>
-    </DropDown>
+    <DropDownStyle role={"listbox"}>
+      <span role={"option"} onClick={onClick}>
+        Sign Out
+      </span>
+    </DropDownStyle>
   );
 };
 
-export default SignOut;
+export default DropDown;
