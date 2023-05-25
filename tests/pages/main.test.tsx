@@ -1,36 +1,41 @@
-import {render, renderHook, screen, waitFor} from "@testing-library/react";
+import {renderHook, screen, waitFor} from "@testing-library/react";
 import Main from "$/pages/main";
-import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import "@testing-library/jest-dom";
-import {ReactNode} from "react";
 import {useMovieNowContents} from "@/hooks/query/queries/movieQueries";
+import {queryRender, wrapper} from "../testUtils";
 
 describe("home test", () => {
-  const queryClient = new QueryClient();
-
-  const wrapper = ({children}: {children: ReactNode}) => (
-    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-  );
-
   const renderMain = () => {
-    const {container} = render(
-      <QueryClientProvider client={queryClient}>
-        <Main />,
-      </QueryClientProvider>,
-    );
+    return queryRender(<Main />);
+  };
 
-    const {result} = renderHook(() => useMovieNowContents(), {wrapper});
-    return {result, container};
+  const findContentTitle = (name: string) => {
+    return screen.findByRole("heading", {level: 3, name});
   };
 
   context("화면 출력이 되는가?", () => {
     it("배너가 정상적으로 출력되는가?", async () => {
-      const {result, container} = renderMain();
-      await waitFor(() => expect(result.current.isSuccess).toBe(true));
-      expect(screen.getByText(/설명/)).toBeInTheDocument();
+      renderMain();
+      const {result} = renderHook(() => useMovieNowContents(), {wrapper});
 
-      const h1El = await screen.findByRole("heading");
-      expect(h1El).toHaveTextContent(/레디/);
+      await waitFor(() => expect(result.current.isSuccess).toBe(true));
+
+      //react query 문제인지, 테스트 코드가 잘못된건지 간헐적으로 api 응답을 기다리는 await 후에
+      // 영화 제못이 렌더링 되지않는 문제가 있다.
+      const titleEl = await screen.findByRole("heading", {level: 1});
+      expect(titleEl).toHaveTextContent(/(바티칸|슈퍼)/);
+    });
+
+    it("콘텐츠 리스트 5가지가 정상적으로 출력되는가?", async () => {
+      const {container} = renderMain();
+
+      expect(await findContentTitle("전체 트랜드")).toBeInTheDocument();
+      expect(await findContentTitle("인기 영화 20")).toBeInTheDocument();
+      expect(await findContentTitle("현재 상영중인 영화")).toBeInTheDocument();
+      expect(await findContentTitle("인기 TV 프로그램")).toBeInTheDocument();
+      expect(await findContentTitle("Top 20 TV 프로그램")).toBeInTheDocument();
+
+      expect(container).toMatchSnapshot();
     });
   });
 });

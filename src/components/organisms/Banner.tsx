@@ -1,17 +1,15 @@
-import {ReactElement, useEffect, useState} from "react";
+import {ReactElement, useState} from "react";
 import styled from "@emotion/styled";
 import BannerContents from "@/components/molecules/BannerContents";
-import FadeArea from "@/components/atoms/FadeArea";
-import {useMovieDetail, useMovieDetailVideos, useMovieNowContents} from "@/hooks/query/queries/movieQueries";
+import {useMovieNowContents} from "@/hooks/query/queries/movieQueries";
 import urls from "@/utils/Urls";
-import Image from "next/image";
 import BannerImage from "@/components/molecules/BannerImage";
 import {MovieResult} from "@/types/data/MovieType";
 
 const BannerStyle = styled.header`
   color: #fff;
   height: 0;
-  padding: 0 calc(3.5vw + 5px) calc(35vw);
+  padding: 0 calc(3.5vw + 5px) calc(45vw);
   position: relative;
   overflow-x: hidden;
   display: block;
@@ -31,7 +29,8 @@ const BannerStyle = styled.header`
 const Banner = (): ReactElement => {
   const [bannerMovie, setBannerMovie] = useState<MovieResult>();
   const {isLoading, isError, data, error} = useMovieNowContents({}, data => {
-    setBannerMovie(data.results[Math.floor(Math.random() * data.results.length)]);
+    const index = Math.floor(Math.random() * data.results.length);
+    setBannerMovie(data.results[index]);
   });
 
   // const {data: detail} = useMovieDetail(detailMovieId!, {
@@ -45,7 +44,9 @@ const Banner = (): ReactElement => {
   return (
     <BannerStyle>
       <BannerImage
-        src={urls.common.image(bannerMovie?.backdrop_path ?? "", "banner")}
+        src={
+          bannerMovie?.backdrop_path ? urls.common.image(bannerMovie.backdrop_path, "banner") : "/images/no_image.png"
+        }
         alt={`${bannerMovie?.title ?? ""}_이미지`}
       />
       <BannerContents info={bannerMovie}></BannerContents>

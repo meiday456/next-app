@@ -17,7 +17,7 @@ const movie = {
 
 const tv = {
   popular: `/tv/popular`,
-  top_rated: `tv/top_rated`,
+  top_rated: `/tv/top_rated`,
   provider: (id: number) => `/tv/${id}/watch/providers`,
 };
 
@@ -25,4 +25,6 @@ const routes = {
   base: "/api",
   contents: `/api/contents`,
 };
-export default {movie, common, tv, routes};
+
+const urls = {movie, common, tv, routes};
+export default urls;

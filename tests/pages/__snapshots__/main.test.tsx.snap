@@ -1,0 +1,2437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home test 화면 출력이 되는가? 콘텐츠 리스트 5가지가 정상적으로 출력되는가? 1`] = `
+<div>
+  <main
+    class="css-mkuve3"
+  >
+    <header
+      class="css-zswjra"
+    >
+      <div
+        class="css-w8lgzu"
+      >
+        <img
+          alt="_이미지"
+          class="image"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=%2Fimages%2Fno_image.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fno_image.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fno_image.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fno_image.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fno_image.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fno_image.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fno_image.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fno_image.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fno_image.png&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <div
+        class="css-114bqei"
+      >
+        <h1
+          class="css-6o6luj"
+        >
+          제목
+        </h1>
+        <button
+          class="css-uxbk32"
+        >
+          상세정보
+        </button>
+        <p
+          class="css-172wnc8"
+        >
+          설명
+        </p>
+      </div>
+    </header>
+    <section
+      class="css-1xc0x3g"
+    >
+      <section
+        class="item-list css-180vpgq"
+      >
+        <div
+          class="css-1u39o43"
+        >
+          <h3
+            class="css-1s879dq"
+          >
+            전체 트랜드
+          </h3>
+        </div>
+        <div
+          data-testid="Swiper-testId"
+        >
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="슈퍼 마리오 브라더스"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="시수"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pnQYjDxqZ3C6reI8N0MfNi4NMkZ.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="분노의 질주: 라이드 오어 다이"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="앤트맨과 와스프: 퀀텀매니아"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="투 캐치 어 킬러"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/mFp3l4lZg1NSEsyxKrdi0rNK8r1.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="내 이름은 마더"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/vnRthEZz16Q9VWcP5homkHxyHoy.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="던전 앤 드래곤 - 도적들의 명예"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="에어"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="가디언즈 오브 갤럭시: Volume 3"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="이블 데드 라이즈"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="빅 조지 포먼"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fdVd6thTstt0MQ4dUC1IXiOXpxv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="폴라이트 소사이어티"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/wTuEohahpW4nY5dGru1l41XhytO.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="팬픽"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/xf5t1vQQjJRWUv6Hg1kafyYZZ8t.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="하이 데저트"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/qyHWS2JKTQa1kHcYZtgpzgfYi1P.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="크레이터"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fYPegDwZoD1jfVC5sszbEiQmE0c.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="택배기사"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/qp2IE4GDj69hXBOCX4A68bLKfHM.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="언제나 너만을"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/gKcmp0l5kpvzEogOVZij4dSdLNJ.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="더 커버넌트"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="엑소시스트: 더 바티칸"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="맥그리거 포에버"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/jD6A3aIjCzQz6IU0od8BIMkVnwf.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="item-list css-180vpgq"
+      >
+        <div
+          class="css-1u39o43"
+        >
+          <h3
+            class="css-1s879dq"
+          >
+            인기 영화 20
+          </h3>
+        </div>
+        <div
+          data-testid="Swiper-testId"
+        >
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="슈퍼 마리오 브라더스"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="앤트맨과 와스프: 퀀텀매니아"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/sz6mTIDDQmR3DYgJudiTmoW2gR5.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="엑소시스트: 더 바티칸"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="가디언즈 오브 갤럭시: Volume 3"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="고스팅"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/zCsg0CgncQkLiAgk1zkmt15OhM8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="아바타: 물의 길"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/z56bVX93oRG6uDeMACR7cXCnAbh.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="샤잠! 신들의 분노"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/f5907P7GdAGI22PHNRfqoKCAcDR.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="분노의 질주: 라이드 오어 다이"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="크리드 3"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/56HGRCoEY2OmO1yZro77IvldDpE.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="스크림 6"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/1zhb49U0Rjg2qVU9L7VLmujf1Hs.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="존 윅 4"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="멕시코 만세?"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="헌트"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/owt8hAoRxyK2tkLj9G0nh0r3Vpr.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="피터팬 & 웬디"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/x5ex5Dk1jekuOHy7BBrX4jJ0csO.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="던전 앤 드래곤 - 도적들의 명예"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/eg4vGqZo1BpjY3ZoCUAGk09Pq7T.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="장화신은 고양이: 끝내주는 모험"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/rKgvctIuPXyuqOzCQ16VGdnHxKx.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="유랑지구 2"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="머더 미스터리 2"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fLuop1cvcHaZ4ayyzC8SqrUiCX.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="렌필드"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="에어"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="item-list css-180vpgq"
+      >
+        <div
+          class="css-1u39o43"
+        >
+          <h3
+            class="css-1s879dq"
+          >
+            현재 상영중인 영화
+          </h3>
+        </div>
+        <div
+          data-testid="Swiper-testId"
+        >
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="슈퍼 마리오 브라더스"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/dlGyzCxbBQK1U2O5o31Z1hB6erc.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="엑소시스트: 더 바티칸"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fA1xRPplBqW87wWh0hO1pwbQmX8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="가디언즈 오브 갤럭시: Volume 3"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="분노의 질주: 라이드 오어 다이"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/3JT1oE0JIA6CQJaZDG00y3S0kP3.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="존 윅 4"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/9WF6TxCYwdiZw51NM92ConaQz1w.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="유랑지구 2"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pajq0n6FZivirCg1ifpe4zYKvsA.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="렌필드"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/wJXgQ3FgVIyVUwdoaKoeobET3po.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="에어"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/u72FzpfOZLBkeUdL3o3jyYK9OxU.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="65"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/o9ItQpKVvhGcAcJFyIpFM7YYKuv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="곰돌이 푸: 피와 꿀"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fcCbzcEbAEQ5gWzx7EX78qLEVFw.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="피기"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/xRdV63kKgWoEwt022e75OBlDeEO.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="클로즈"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/2zWgF5rHhoi42foPKOayVJQooLd.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="레디 플레이어 원"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/j4TIfwFrm8WnckByTnMFEAuIVju.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="슬픔의 삼각형"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/ltEblZr0pwTf585kbrZSWyNf4uj.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="뮤턴트 이스케이프"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/fAKWgJxfmogyXEcae7lGkC39GvX.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="온 어 윙 앤드 어 프레이어"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/wXiLzb5QiibYSDupKKtAi2MSu06.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="메리 마이 데드 바디"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/m9UIiiTDTx6w1gPQgVr8cvgol91.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="2001 스페이스 오디세이"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/2qJjH5mYNlGPdVrPqfEq1J6Mgb4.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="스마일 어게인"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/qJVhs4BaUOHk3wT8AlTK1zgwq6w.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="울지마 엄마"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/lBYMjaISaOvuS52M1xdfCBG6eis.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="item-list css-180vpgq"
+      >
+        <div
+          class="css-1u39o43"
+        >
+          <h3
+            class="css-1s879dq"
+          >
+            인기 TV 프로그램
+          </h3>
+        </div>
+        <div
+          data-testid="Swiper-testId"
+        >
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="지금 우리 학교는"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="종이의 집: 공동경제구역"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/7zLHH6LV6rI6emO0z1U8VZDUkjd.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="여신강림"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/gaCOvKGG2qEnsijNHEAigYcQ1U3.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="환혼"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="오징어 게임"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/yACIAqAkSLkX4coHafpyLWAtQjw.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="더 글로리"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="쓸쓸하고 찬란하神: 도깨비"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="사랑의 불시착"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="이상한 변호사 우영우"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/yv57TccCkgdy3St7rspBPKROeRK.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="사이코지만 괜찮아"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="스위트홈"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/eNfNu9sJ2eVmMcbrKpgEovPoyB8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="빈센조"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="지옥"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/sgTu75c5PJsRHDMSna0ha8bhYWn.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="호텔 델루나"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="고요의 바다"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/syYduNOCirN544TIQcdy0aOyXFp.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="연모"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/wX6j82TluVxUsiTDOIDYa5jTT3f.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="달려라 방탄"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="철인왕후"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="구미호뎐"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/61OTnrKWaJ4n5aZTdNXvt80t8nv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="꽃보다 남자"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/Apn2ccFuy7uahKAd0Kb9DbQQvNY.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="item-list css-180vpgq"
+      >
+        <div
+          class="css-1u39o43"
+        >
+          <h3
+            class="css-1s879dq"
+          >
+            Top 20 TV 프로그램
+          </h3>
+        </div>
+        <div
+          data-testid="Swiper-testId"
+        >
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="쓸쓸하고 찬란하神: 도깨비"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/qZMEiTsNlCQV27hHQE27ZtlPWyv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="환혼"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pGs6UA4rPUZEokDyTwAGdRvwrAD.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="외모지상주의"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pPMQ3lqLrQiCDGlGsbjQ2rc2ZWu.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="역도요정 김복주"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/ssKVvJM341QiRdBmj8fOAOcpYdl.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="달의 연인 - 보보경심 려"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/7Ji4MvbqOnAnwGJV5Z953AkuE0X.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="사랑의 불시착"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/4qGJJR6RIEa6SDQ3jIMQk3AN9uv.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="빈센조"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/mWYW3xNeV2IM06aUl2xMUdLicpa.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="철인왕후"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/yrZkfrMLBi9tmNrDJpiMqjEv1S1.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="사내맞선"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/lOa1IUp3AFVo6h9b17KA20r4E5s.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="달려라 방탄"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="호텔 델루나"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/sRYVPFS4RwqpyVtd0LNq7mIgaA8.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="인더숲 BTS편"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/snrfWsJvdmg433Fm2L27FYOq2Y3.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="사이코지만 괜찮아"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/1uBz58vwQymBfDZuLHwHe4dsOOM.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="내일"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/9rXf2AsOoqN4NkQPVuzcZ3dX7Dj.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="더 글로리"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/m0cNGGKPVF3Yccx7iBQZUBQxuLJ.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="나빌레라"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/8XNj2fN7TwSazpRfvE27VJA65SJ.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="내 이름은 김삼순"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/pcCmzOSn2vfbo6gmGc4n5X4KMTj.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="괴물"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/khgMdk2ctVdk5KWaSJjVHRa2Use.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="나 홀로 그대"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/lVBwQpgNItuUySXJoUg9B0VZxOL.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            data-testid="SwiperSlide-testId"
+          >
+            <div
+              class="css-1dx4t2l"
+            >
+              <a
+                href="#"
+              >
+                <img
+                  alt="대장금"
+                  class="image"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  sizes="(max-width: 600) 200px, (max-width: 1000px) 300px, (max-width: 1400px) 400px, (max-width: 2000px) 500px, 100vw"
+                  src="https://image.tmdb.org/t/p/w500/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=3840&q=75"
+                  srcset="https://image.tmdb.org/t/p/w300/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=640&q=75 640w, https://image.tmdb.org/t/p/w300/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=750&q=75 750w, https://image.tmdb.org/t/p/w300/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=828&q=75 828w, https://image.tmdb.org/t/p/w400/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=1080&q=75 1080w, https://image.tmdb.org/t/p/w400/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=1200&q=75 1200w, https://image.tmdb.org/t/p/w500/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=1920&q=75 1920w, https://image.tmdb.org/t/p/w500/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=2048&q=75 2048w, https://image.tmdb.org/t/p/w500/rQbcx9cotedaXTXQFOHc375BRFs.jpg?w=3840&q=75 3840w"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</div>
+`;

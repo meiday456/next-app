@@ -1,13 +1,9 @@
-import {Swiper, SwiperSlide} from "swiper/react";
 import {A11y, Navigation, Pagination, Mousewheel} from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
 import Item from "@/components/molecules/item/Item";
 import styled from "@emotion/styled";
 import ListTitle from "@/components/molecules/item/ListTitle";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import {ContentsList} from "@/types/data/CommonType";
 
 const ItemListSection = styled.section`
@@ -50,27 +46,27 @@ const ItemList = ({info}: Props): React.ReactElement => {
   return (
     <ItemListSection className={"item-list"}>
       <ListTitle title={info.title} />
-      <Swiper
-        modules={[Navigation, Pagination, A11y, Mousewheel]}
-        spaceBetween={50}
-        slidesPerView={"auto"}
-        onSlideChange={() => {}}
-        navigation
-        mousewheel={{forceToAxis: true}}
-        pagination={{clickable: true}}
-        scrollbar={{draggable: true}}
-        breakpoints={breakpoints}
-        watchOverflow
-        onSwiper={swiper => {}}
-      >
-        {info.list.map(contents => {
-          return (
-            <SwiperSlide key={contents.id}>
-              <Item {...contents} />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+      {info.list.length > 0 && (
+        <Swiper
+          modules={[Navigation, Pagination, A11y, Mousewheel]}
+          spaceBetween={50}
+          slidesPerView={"auto"}
+          navigation
+          mousewheel={{forceToAxis: true}}
+          pagination={{clickable: true}}
+          scrollbar={{draggable: true}}
+          breakpoints={breakpoints}
+          watchOverflow
+        >
+          {info.list.map(contents => {
+            return (
+              <SwiperSlide key={contents.id}>
+                <Item {...contents} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      )}
     </ItemListSection>
   );
 };

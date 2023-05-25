@@ -1,8 +1,9 @@
 import styled from "@emotion/styled";
 import Image from "next/image";
-import {CommonResult} from "@/types/data/CommonType";
+import {CommonResult, ImageType} from "@/types/data/CommonType";
 import urls from "@/utils/Urls";
 import {ImageLoaderProps} from "next/dist/shared/lib/image-config";
+import Link from "next/link";
 
 const ItemStyle = styled.div`
   position: relative;
@@ -13,7 +14,8 @@ const ItemStyle = styled.div`
   object-fit: contain;
 
   & .image {
-    position: relative !important;
+    inset: 0;
+    object-fit: cover;
   }
 `;
 
@@ -28,19 +30,24 @@ const Item = (props: Props): React.ReactElement => {
 
   return (
     <ItemStyle>
-      <Image
-        src={props.poster_path!}
-        alt={`${props.title || props.name || "대체이미지"}`}
-        fill={true}
-        priority={true}
-        loader={imageLoader}
-        // placeholder={"blur"}
-        sizes="(max-width: 600) 200px,
+      <Link href={"#"}>
+        <Image
+          src={props.poster_path}
+          alt={`${props.title || props.name || "대체이미지"}`}
+          fill={true}
+          loader={imageLoader}
+          placeholder={"blur"}
+          loading={"lazy"}
+          blurDataURL={
+            "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOsaWm5AQAFZgJe6m0qkAAAAABJRU5ErkJggg=="
+          }
+          sizes="(max-width: 600) 200px,
                 (max-width: 1000px) 300px,
                 (max-width: 1400px) 400px,
                 (max-width: 2000px) 500px, 100vw"
-        className={"image"}
-      ></Image>
+          className={"image"}
+        ></Image>
+      </Link>
     </ItemStyle>
   );
 };
