@@ -1,7 +1,7 @@
 import {Now as MovieNow, Popular as MoviePopular} from "@/types/data/MovieType";
 import {Tv} from "@/types/data/TvType";
 
-export type Time_window = "6h" | "day" | "week";
+export type Time_window = "day" | "week";
 export type ImageType = "banner" | "content";
 
 export interface CommonResponse<T> {

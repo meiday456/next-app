@@ -5,7 +5,7 @@ const ApiUtils = axios.create({
   timeout: 10000,
   method: "get",
   params: {
-    api_key: process.env.NEXT_PUBLIC_API_KEY,
+    api_key: process.env.NEXT_PUBLIC_API_KEY ?? process.env.API_KEY,
     language: "ko-KR",
     region: "KR",
     timezone: "Asia/Seoul",
@@ -17,13 +17,17 @@ ApiUtils.interceptors.request.use(
     config.headers["Content-Type"] = "application/json; charset=utf-8";
     return config;
   },
-  error => {},
+  error => {
+    return Promise.reject(error);
+  },
 );
 ApiUtils.interceptors.response.use(
   response => {
     return response;
   },
-  error => {},
+  error => {
+    return Promise.reject(error);
+  },
 );
 
 export default ApiUtils;

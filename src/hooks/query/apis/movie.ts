@@ -1,7 +1,6 @@
 import ApiUtils from "@/utils/ApiUtils";
 import {Detail, Now, Popular, Video} from "@/types/data/MovieType";
 import urls from "@/utils/Urls";
-import {DEFAULT_REGION} from "@/constants/common";
 
 export const getNowMovie = async (page = 1) => {
   const {data} = await ApiUtils.get<Now>(urls.movie.now, {params: {page}});

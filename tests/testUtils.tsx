@@ -16,6 +16,4 @@ const AllTheProviders = ({children}: {children: React.ReactNode}): JSX.Element =
 const customRender = (ui: ReactElement, options?: RenderOptions): RenderResult =>
   render(ui, {wrapper: AllTheProviders, ...options});
 
-export * from "@testing-library/react";
-
 export {customRender as queryRender, AllTheProviders as wrapper};
