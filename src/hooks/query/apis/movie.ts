@@ -1,12 +1,27 @@
 import ApiUtils from "@/utils/ApiUtils";
-import {Detail, Now} from "@/types/data/MovieType";
+import {Detail, Now, Popular, Video} from "@/types/data/MovieType";
+import urls from "@/utils/Urls";
 
-export const getMovieNow = async () => {
-  const {data} = await ApiUtils.get<Now>("/movie/now_playing");
+export const getNowMovie = async (page = 1) => {
+  const {data} = await ApiUtils.get<Now>(urls.movie.now, {params: {page}});
+  return data;
+};
+
+export const getPopularMovie = async (region = "", page = 1) => {
+  const params = {
+    page,
+    with_origin_country: region,
+  };
+  const {data} = await ApiUtils.get<Popular>(urls.movie.popular, {params});
   return data;
 };
 
 export const getMovieDetail = async (id: number) => {
-  const {data} = await ApiUtils.get<Detail>(`/movie/${id}`);
+  const {data} = await ApiUtils.get<Detail>(urls.movie.detail(id));
+  return data;
+};
+
+export const getMovieDetailVideos = async (id: number) => {
+  const {data} = await ApiUtils.get<Video>(urls.movie.detail_videos(id));
   return data;
 };

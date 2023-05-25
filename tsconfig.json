@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -21,12 +25,18 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/pages/*": ["./pages/*"],
-      "@/styles/*": ["./src/styles/*"],
-      "test-utils": ["./utils/test-utils"],
-    },
+      "$/pages/*": ["./pages/*"],
+      "$/fixture/*" : ["./fixture/*"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "types.d.ts", "next.config.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "./*.d.ts",
+    ".next/types/**/*.ts",
+    "jest.setup.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -3,8 +3,12 @@
   "env": {
     "node": true,
     "browser": true,
+    "commonjs": true,
     "jest": true,
     "es6": true
+  },
+  "globals": {
+    "context": "readonly"
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -14,7 +18,9 @@
       "globalReturn": false,
       "jsx": true
     },
-    "project": ["./tsconfig.json"]
+    "project": [
+      "./tsconfig.json"
+    ]
   },
   "extends": [
     "eslint:recommended",
@@ -25,14 +31,27 @@
     "next/core-web-vitals",
     "next",
     "plugin:testing-library/react",
+    "plugin:jest-dom/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
     "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint","testing-library"],
+  "plugins": [
+    "@typescript-eslint",
+    "testing-library",
+    "jest-dom"
+  ],
   "rules": {
-    "@typescript-eslint/no-unused-vars" : "off",
-    "@typescript-eslint/no-empty-function" : "off"
-  }
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/require-await":"warn",
+    "prettier/prettier": ["error", { "printWidth": 120 }]
+  },
+  "ignorePatterns": [
+    "*.config.js",
+    "*.config.mjs",
+    "*.setup.js"
+  ]
 }

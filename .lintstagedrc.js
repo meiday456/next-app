@@ -1,13 +1,19 @@
-const path = require('path')
+const path = require("path");
 
-const buildEslintCommand = (filenames) =>
+const buildEslintCommand = filenames =>
   `next lint --cache --fix --file ${filenames
-    .map((f) => path.relative(process.cwd(), f))
-    .join(' --file ')}`
+    .map(f => path.relative(process.cwd(), f))
+    .join(" --file ")}`;
 
 module.exports = {
-  '*.{js,jsx,ts,tsx}': [buildEslintCommand],
-  "./src/**": "prettier --write --ignore-unknown",
-  "./pages/**": "prettier --write --ignore-unknown",
-  "./tests/**": "prettier --write --ignore-unknown"
-}
+  "*.{js,jsx}": buildEslintCommand,
+  "*.{ts,tsx}": [
+    buildEslintCommand,
+    'stylelint "**/*.{ts,tsx}" --cache --fix',
+    'tsc-files --noEmit --incremental false'
+  ],
+  "**/*.css": 'stylelint "**/*.{css,scss,sass}" --cache --fix',
+  "./src/**": "prettier --cache --write --ignore-unknown ",
+  "./pages/**": "prettier --cache --write --ignore-unknown ",
+  "./tests/**": "prettier --cache --write --ignore-unknown ",
+};
