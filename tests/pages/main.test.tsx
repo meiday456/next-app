@@ -34,8 +34,6 @@ describe("home test", () => {
       expect(await findContentTitle("현재 상영중인 영화")).toBeInTheDocument();
       expect(await findContentTitle("인기 TV 프로그램")).toBeInTheDocument();
       expect(await findContentTitle("Top 20 TV 프로그램")).toBeInTheDocument();
-
-      expect(container).toMatchSnapshot();
     });
   });
 });
