@@ -20,10 +20,10 @@ describe("home test", () => {
 
       await waitFor(() => expect(result.current.isSuccess).toBe(true));
 
-      //react query 문제인지, 테스트 코드가 잘못된건지 간헐적으로 api 응답을 기다리는 await 후에
-      // 영화 제못이 렌더링 되지않는 문제가 있다.
-      const titleEl = await screen.findByRole("heading", {level: 1});
-      expect(titleEl).toHaveTextContent(/(바티칸|슈퍼)/);
+      await waitFor(async () => {
+        const titleEl = await screen.findByRole("heading", {level: 1});
+        expect(titleEl).toHaveTextContent(/(바티칸|슈퍼)/);
+      });
     });
 
     it("콘텐츠 리스트 5가지가 정상적으로 출력되는가?", async () => {
