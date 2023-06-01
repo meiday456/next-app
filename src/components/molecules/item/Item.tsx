@@ -11,7 +11,6 @@ const ItemStyle = styled.div`
   padding: 70% 0;
   border-radius: 7px;
   overflow: hidden;
-  object-fit: contain;
 
   a {
     position: absolute;

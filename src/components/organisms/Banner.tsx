@@ -9,7 +9,7 @@ import {MovieResult} from "@/types/data/MovieType";
 const BannerStyle = styled.header`
   color: #fff;
   height: 0;
-  padding: 0 calc(3.5vw + 5px) calc(45vw);
+  padding: 0 calc(3.5vw + 5px) 40%;
   position: relative;
   overflow-x: hidden;
   display: block;
@@ -28,18 +28,10 @@ const BannerStyle = styled.header`
 
 const Banner = (): ReactElement => {
   const [bannerMovie, setBannerMovie] = useState<MovieResult>();
-  const {isLoading, isError, data, error} = useMovieNowContents({}, data => {
+  useMovieNowContents({}, data => {
     const index = Math.floor(Math.random() * data.results.length);
     setBannerMovie(data.results[index]);
   });
-
-  // const {data: detail} = useMovieDetail(detailMovieId!, {
-  //   enabled: !!detailMovieId,
-  // });
-  //
-  // const {data: videos} = useMovieDetailVideos(detailMovieId!, {
-  //   enabled: !!detailMovieId,
-  // });
 
   return (
     <BannerStyle>

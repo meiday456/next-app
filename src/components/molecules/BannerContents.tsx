@@ -7,9 +7,15 @@ import {MovieResult} from "@/types/data/MovieType";
 
 const BannerContentsStyle = styled.div`
   position: absolute;
+  width: 82%;
   bottom: 8%;
   left: 8%;
   z-index: 2;
+`;
+const ButtonWrapperStyle = styled.div`
+  position: absolute;
+  right: -1rem;
+  bottom: 0.5rem;
 `;
 
 interface Props {
@@ -24,8 +30,10 @@ const BannerContents = ({info}: Props): ReactElement => {
   return (
     <BannerContentsStyle>
       <Title>{info.title || info.original_title}</Title>
-      <Button onClick={() => {}}>상세정보</Button>
       <Description>{truncate(info.overview, 50)}</Description>
+      <ButtonWrapperStyle>
+        <Button onClick={() => {}}>상세정보</Button>
+      </ButtonWrapperStyle>
     </BannerContentsStyle>
   );
 };
