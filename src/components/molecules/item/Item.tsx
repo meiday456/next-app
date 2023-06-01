@@ -34,7 +34,7 @@ interface Props extends CommonResult {
 }
 const Item = (props: Props): React.ReactElement => {
   const imageLoader = ({src, width, quality}: ImageLoaderProps) => {
-    return `${urls.common.image(src, "content", width)}?w=${width}&q=${quality ?? 75}`;
+    return `${urls.common.image(src, "content", width)}?w=${width}&q=${quality || 75}`;
   };
 
   return (
@@ -42,7 +42,7 @@ const Item = (props: Props): React.ReactElement => {
       <Link href={"#"}></Link>
       <Image
         src={props.poster_path}
-        alt={`${props.title ?? props.name ?? "대체이미지"}`}
+        alt={`${props.title || props.name || "대체이미지"}`}
         fill={true}
         loader={imageLoader}
         placeholder={"blur"}
