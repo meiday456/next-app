@@ -7,12 +7,13 @@ import {getContentsList, getTrendingList} from "@/hooks/query/apis/common";
 
 export const useCommonTrending = (
   tw: Time_window = "day",
+  page = 1,
   options: UseQueryOptions<Trending, AxiosError> = {},
   onSuccess: (data: Trending) => void = () => {},
 ): UseQueryResult<Trending, AxiosError> => {
   return useQuery({
     queryKey: queryKeys.common.query.trending(),
-    queryFn: () => getTrendingList(tw),
+    queryFn: () => getTrendingList(tw, page),
     onSuccess,
     ...options,
   });

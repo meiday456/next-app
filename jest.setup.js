@@ -14,6 +14,20 @@ jest.mock("swiper", () => ({
   Scrollbar: props => null,
   A11y: props => null,
 }));
+
+jest.mock("next/router", () => ({
+  useRouter() {
+    return {
+      route: "/",
+      pathname: "",
+      query: "",
+      asPath: "",
+      push : jest.fn()
+    };
+  },
+}));
+
+
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());

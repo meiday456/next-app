@@ -57,6 +57,12 @@ const ItemList = ({info}: Props): React.ReactElement => {
           scrollbar={{draggable: true}}
           breakpoints={breakpoints}
           watchOverflow
+          a11y={{
+            enabled: true,
+            prevSlideMessage: "이전 슬라이드",
+            nextSlideMessage: "다음 슬라이드",
+            paginationBulletMessage: "{{index}}번 페이지로 이동",
+          }}
         >
           {info.list.map(contents => {
             return (

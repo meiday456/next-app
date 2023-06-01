@@ -1,9 +1,14 @@
 import {render, screen} from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import {useRouter} from "next/router";
+
 import BannerContents from "@/components/molecules/BannerContents";
-import {queryRender} from "../testUtils";
 import {MovieResult} from "@/types/data/MovieType";
 import nowMovieList from "$/fixture/movie/now.json";
-import userEvent from "@testing-library/user-event";
+
+jest.mock("next/router", () => ({
+  useRouter: jest.fn(),
+}));
 
 describe("BannerContents", () => {
   const fixture: MovieResult = nowMovieList.results[0];
@@ -36,12 +41,19 @@ describe("BannerContents", () => {
   });
 
   context("상세정보 버튼", () => {
+    const mockPush = jest.fn();
+
+    (useRouter as jest.Mock).mockImplementation(() => ({
+      push: mockPush,
+    }));
+
     it("click", async () => {
       setup(fixture);
 
-      await userEvent.click(screen.getByRole("button"));
+      const buttonElement = screen.getByText("상세정보");
+      await userEvent.click(buttonElement);
 
-      //TODO button 클릭 후 페이지 전환 테스트 코드를 작성해야함
+      expect(mockPush).toHaveBeenCalledWith(`/detail/${fixture.id}`);
     });
   });
 });
