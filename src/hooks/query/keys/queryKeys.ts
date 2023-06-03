@@ -3,8 +3,8 @@ const movie = {
   allQuery: () => [...movie.all, "query"],
   query: {
     now: () => [...movie.allQuery(), "now"],
-    detail: (movieId: number) => [...movie.allQuery(), "detail", movieId],
-    detail_videos: (movieId: number) => [...movie.query.detail(movieId), "videos"],
+    detail: (id: number) => [...movie.allQuery(), "detail", id],
+    detailVideos: (id: number) => [...movie.query.detail(id), "videos"],
   },
 };
 
@@ -17,4 +17,6 @@ const common = {
   },
 };
 
-export default {movie, common};
+const queryKeys = {movie, common};
+
+export default queryKeys;

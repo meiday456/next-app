@@ -10,14 +10,14 @@ const common = {
 const movie = {
   now: `/movie/now_playing`,
   detail: (id: number) => `/movie/${id}`,
-  detail_videos: (id: number) => `${movie.detail(id)}/videos`,
+  detailVideos: (id: number) => `${movie.detail(id)}/videos`,
   popular: `/movie/popular`,
   provider: (id: number) => `/movie/${id}/watch/providers`,
 };
 
 const tv = {
   popular: `/tv/popular`,
-  top_rated: `/tv/top_rated`,
+  topRated: `/tv/top_rated`,
   provider: (id: number) => `/tv/${id}/watch/providers`,
 };
 

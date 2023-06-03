@@ -18,7 +18,7 @@ describe("query keys", () => {
       context("movie id가 20일때", () => {
         it("[...detail(20), 'videos'] 결과를 반환한다.", () => {
           const detailKey = movie.query.detail(20);
-          const videosKey = movie.query.detail_videos(20);
+          const videosKey = movie.query.detailVideos(20);
 
           detailKey.push("videos");
           expect(detailKey).toEqual(videosKey);

@@ -1,5 +1,6 @@
 import ApiUtils from "@/utils/ApiUtils";
-import {Detail, Now, Popular, Video} from "@/types/data/MovieType";
+import {MovieDetail, Now, Popular} from "@/types/data/MovieType";
+import {Video} from "@/types/data/CommonType";
 import urls from "@/utils/Urls";
 
 export const getNowMovie = async (page = 1) => {
@@ -17,11 +18,11 @@ export const getPopularMovie = async (region = "", page = 1) => {
 };
 
 export const getMovieDetail = async (id: number) => {
-  const {data} = await ApiUtils.get<Detail>(urls.movie.detail(id));
+  const {data} = await ApiUtils.get<MovieDetail>(urls.movie.detail(id));
   return data;
 };
 
 export const getMovieDetailVideos = async (id: number) => {
-  const {data} = await ApiUtils.get<Video>(urls.movie.detail_videos(id));
+  const {data} = await ApiUtils.get<Video>(urls.movie.detailVideos(id));
   return data;
 };
