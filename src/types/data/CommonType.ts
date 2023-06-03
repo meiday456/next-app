@@ -13,8 +13,10 @@ export interface CommonResponse<T> {
 }
 
 export interface CommonResult {
+  name?: string;
+  title?: string;
   adult?: boolean;
-  backdrop_path?: string;
+  backdrop_path: string;
   genre_ids?: number[];
   id: number;
   original_language: string;

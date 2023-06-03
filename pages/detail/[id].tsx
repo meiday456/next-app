@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import type {GetServerSideProps, InferGetServerSidePropsType} from "next";
 
 import {TvDetail} from "@/types/data/TvType";
@@ -7,6 +8,7 @@ import {getDetailMovie} from "@/hooks/query/apis/movie";
 import {getDetailTv} from "@/hooks/query/apis/tv";
 import {ContentType} from "@/types/data/CommonType";
 import {CONTENT_TYPE} from "@/constants/content";
+import DetailTemplate from "@/components/templates/DetailTemplate";
 
 interface Props {
   type: ContentType;
@@ -14,7 +16,16 @@ interface Props {
 }
 
 const DetailPage = ({type, info}: InferGetServerSidePropsType<typeof getServerSideProps>): React.ReactElement => {
-  return <div>detail page</div>;
+  const title = `${info.name || info.title || "detail"} | Meiday`;
+
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+      </Head>
+      <DetailTemplate type={type} info={info} />
+    </>
+  );
 };
 
 export default DetailPage;
