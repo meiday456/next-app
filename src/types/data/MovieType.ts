@@ -1,4 +1,5 @@
-import {CommonResponse, CommonResult} from "./CommonType";
+import {CommonResponse, CommonResult, Genre, ProductionCompany, ProductionCountry, SpokenLanguage} from "./CommonType";
+
 export interface Now extends CommonResponse<MovieResult> {
   dates: Dates;
 }
@@ -18,20 +19,13 @@ export interface Dates {
   minimum: string;
 }
 
-export interface Detail {
-  adult: boolean;
-  backdrop_path: string;
+export interface MovieDetail extends CommonResult {
   belongs_to_collection: any;
   budget: number;
   genres: Genre[];
   homepage: string;
-  id: number;
   imdb_id: string;
-  original_language: string;
   original_title: string;
-  overview: string;
-  popularity: number;
-  poster_path: string;
   production_companies: ProductionCompany[];
   production_countries: ProductionCountry[];
   release_date: string;
@@ -42,47 +36,4 @@ export interface Detail {
   tagline: string;
   title: string;
   video: boolean;
-  vote_average: number;
-  vote_count: number;
-}
-
-export interface Genre {
-  id: number;
-  name: string;
-}
-
-export interface ProductionCompany {
-  id: number;
-  logo_path?: string;
-  name: string;
-  origin_country: string;
-}
-
-export interface ProductionCountry {
-  iso_3166_1: string;
-  name: string;
-}
-
-export interface SpokenLanguage {
-  english_name: string;
-  iso_639_1: string;
-  name: string;
-}
-
-export interface Video {
-  id: number;
-  results: CommonResult[];
-}
-
-export interface VideoResult {
-  iso_639_1: string;
-  iso_3166_1: string;
-  name: string;
-  key: string;
-  site: string;
-  size: number;
-  type: string;
-  official: boolean;
-  published_at: string;
-  id: string;
 }

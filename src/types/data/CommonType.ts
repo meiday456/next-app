@@ -12,8 +12,9 @@ export interface CommonResponse<T> {
 }
 
 export interface CommonResult {
+  adult?: boolean;
   backdrop_path?: string;
-  genre_ids: number[];
+  genre_ids?: number[];
   id: number;
   original_language: string;
   overview: string;
@@ -26,7 +27,6 @@ export interface CommonResult {
 export type Trending = CommonResponse<TrendingResult>;
 
 export interface TrendingResult extends CommonResult {
-  adult: boolean;
   title?: string;
   release_date?: string;
   video?: boolean;
@@ -42,4 +42,44 @@ export interface ContentsList {
   type: "ALL" | "MOVIE" | "TV";
   title: string;
   list: MovieNow["results"] | MoviePopular["results"] | Tv["results"] | Trending["results"];
+}
+
+export interface Genre {
+  id: number;
+  name: string;
+}
+
+export interface ProductionCompany {
+  id: number;
+  logo_path?: string;
+  name: string;
+  origin_country: string;
+}
+
+export interface ProductionCountry {
+  iso_3166_1: string;
+  name: string;
+}
+export interface SpokenLanguage {
+  english_name: string;
+  iso_639_1: string;
+  name: string;
+}
+
+export interface Video {
+  id: number;
+  results: VideoResult[];
+}
+
+export interface VideoResult {
+  iso_639_1: string;
+  iso_3166_1: string;
+  name: string;
+  key: string;
+  site: string;
+  size: number;
+  type: string;
+  official: boolean;
+  published_at: string;
+  id: string;
 }
