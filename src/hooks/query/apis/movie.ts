@@ -17,12 +17,12 @@ export const getPopularMovie = async (region = "", page = 1) => {
   return data;
 };
 
-export const getMovieDetail = async (id: number) => {
+export const getDetailMovie = async (id: number) => {
   const {data} = await ApiUtils.get<MovieDetail>(urls.movie.detail(id));
   return data;
 };
 
-export const getMovieDetailVideos = async (id: number) => {
+export const getDetailMovieVideos = async (id: number) => {
   const {data} = await ApiUtils.get<Video>(urls.movie.detailVideos(id));
   return data;
 };

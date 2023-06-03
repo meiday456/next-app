@@ -1,7 +1,7 @@
 import {css} from "@emotion/react";
-import {breakpoints} from "@/constants/common";
+import {BREAK_POINTS} from "@/constants/common";
 
-const mq = breakpoints.map(bp => `@media(max-width: ${bp}px)`);
+const mq = BREAK_POINTS.map(bp => `@media(max-width: ${bp}px)`);
 
 export const CommonBtnStyle = css`
   justify-content: start;

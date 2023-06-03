@@ -1,4 +1,4 @@
-import {getMovieDetail, getMovieDetailVideos, getNowMovie, getPopularMovie} from "@/hooks/query/apis/movie";
+import {getDetailMovie, getDetailMovieVideos, getNowMovie, getPopularMovie} from "@/hooks/query/apis/movie";
 
 describe("movie Apis", () => {
   describe("function : getNowMovie", () => {
@@ -48,7 +48,7 @@ describe("movie Apis", () => {
   const movieId = 333339;
   describe("getMovieDetail", () => {
     it(`파리미터 id:${movieId} 일때 정상 호출이되고 response가 정상적인가?`, async () => {
-      const data = await getMovieDetail(movieId);
+      const data = await getDetailMovie(movieId);
       expect(data.id).toBe(movieId);
       expect(data).toHaveProperty("poster_path");
     });
@@ -56,7 +56,7 @@ describe("movie Apis", () => {
 
   describe("getMovieDetailVideos", () => {
     it(`파리미터 id:${movieId} 일때 정상 호출이되고 response가 정상적인가?`, async () => {
-      const data = await getMovieDetailVideos(movieId);
+      const data = await getDetailMovieVideos(movieId);
       expect(data.id).toBe(movieId);
       expect(data).toHaveProperty("results");
     });

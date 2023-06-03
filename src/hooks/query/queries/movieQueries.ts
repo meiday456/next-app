@@ -1,6 +1,6 @@
 import {useQuery, UseQueryOptions, UseQueryResult} from "@tanstack/react-query";
 import queryKeys from "@/hooks/query/keys/queryKeys";
-import {getMovieDetail, getNowMovie, getMovieDetailVideos} from "@/hooks/query/apis/movie";
+import {getDetailMovie, getNowMovie, getDetailMovieVideos} from "@/hooks/query/apis/movie";
 import {MovieDetail, Now} from "@/types/data/MovieType";
 import {Video} from "@/types/data/CommonType";
 import {AxiosError} from "axios";
@@ -24,7 +24,7 @@ export const useMovieDetail = (
 ): UseQueryResult<MovieDetail, AxiosError> => {
   return useQuery({
     queryKey: queryKeys.movie.query.detail(id),
-    queryFn: () => getMovieDetail(id),
+    queryFn: () => getDetailMovie(id),
     onSuccess,
     ...options,
   });
@@ -36,7 +36,7 @@ export const useMovieDetailVideos = (
 ): UseQueryResult<Video, AxiosError> => {
   return useQuery({
     queryKey: queryKeys.movie.query.detailVideos(id),
-    queryFn: () => getMovieDetailVideos(id),
+    queryFn: () => getDetailMovieVideos(id),
     ...options,
   });
 };
