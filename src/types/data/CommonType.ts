@@ -1,6 +1,7 @@
 import {Now as MovieNow, Popular as MoviePopular} from "@/types/data/MovieType";
 import {Tv} from "@/types/data/TvType";
 
+export type ContentType = "M" | "P";
 export type Time_window = "day" | "week";
 export type ImageType = "banner" | "content";
 

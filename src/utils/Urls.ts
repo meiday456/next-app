@@ -18,6 +18,8 @@ const movie = {
 const tv = {
   popular: `/tv/popular`,
   topRated: `/tv/top_rated`,
+  detail: (id: number) => `/tv/${id}`,
+  detailVideos: (id: number) => `${tv.detail(id)}/videos`,
   provider: (id: number) => `/tv/${id}/watch/providers`,
 };
 

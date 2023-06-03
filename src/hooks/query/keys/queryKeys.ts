@@ -8,6 +8,15 @@ const movie = {
   },
 };
 
+const tv = {
+  all: ["tv"],
+  allQuery: () => [...tv.all, "query"],
+  query: {
+    detail: (id: number) => [...tv.allQuery(), "detail", id],
+    detailVideos: (id: number) => [...tv.query.detail(id), "videos"],
+  },
+};
+
 const common = {
   all: ["common"],
   allQuery: () => [...common.all, "query"],
