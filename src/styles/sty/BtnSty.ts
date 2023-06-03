@@ -1,7 +1,5 @@
 import {css} from "@emotion/react";
-import {BREAK_POINTS} from "@/constants/common";
-
-const mq = BREAK_POINTS.map(bp => `@media(max-width: ${bp}px)`);
+import {MQ} from "@/constants/common";
 
 export const CommonBtnStyle = css`
   justify-content: start;
@@ -19,7 +17,7 @@ export const CommonBtnStyle = css`
     transition: all 0.2s;
   }
 
-  ${mq[0]} {
+  ${MQ[0]} {
     padding: 0.2rem 0.5rem;
   }
 `;
