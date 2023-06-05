@@ -1,29 +1,30 @@
 import React, {ReactElement} from "react";
 import styled from "@emotion/styled";
-import {MQ} from "@/constants/common";
+import urls from "@/utils/Urls";
+import BannerImage from "@/components/molecules/BannerImage";
+import {ContentType} from "@/types/data/CommonType";
+import {TvDetail} from "@/types/data/TvType";
+import {MovieDetail} from "@/types/data/MovieType";
+
+interface Props {
+  type: ContentType;
+  info: TvDetail | MovieDetail;
+}
 
 const BannerStyle = styled.div`
-  padding-top: 30%;
-
-  ${MQ[0]} {
-    padding-top: 40%;
-  }
-  ${MQ[1]} {
-    padding-top: 40%;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: -1rem;
-    right: -1rem;
-    height: 5rem;
-    background-image: linear-gradient(to top, #040714, rgba(0, 0, 0, 0));
-  }
+  color: #fff;
+  padding: 0 2%;
+  position: relative;
 `;
-const DetailBanner = (): ReactElement => {
-  return <BannerStyle></BannerStyle>;
+const DetailBanner = ({type, info}: Props): ReactElement => {
+  return (
+    <BannerStyle>
+      <BannerImage
+        src={info.backdrop_path ? urls.common.image(info.backdrop_path, "banner") : "/images/no_image.png"}
+        alt={`${info.title || info.name || ""}_이미지`}
+      />
+    </BannerStyle>
+  );
 };
 
 export default DetailBanner;

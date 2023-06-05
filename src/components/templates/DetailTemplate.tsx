@@ -1,6 +1,4 @@
 import React from "react";
-
-import urls from "@/utils/Urls";
 import Container from "@/components/atoms/Container";
 import {ContentType} from "@/types/data/CommonType";
 import {TvDetail} from "@/types/data/TvType";
@@ -12,10 +10,10 @@ interface Props {
   info: TvDetail | MovieDetail;
 }
 
-const DetailTemplate = ({type, info}: Props): React.ReactElement => {
+const DetailTemplate = (props: Props): React.ReactElement => {
   return (
-    <Container bgImg={urls.common.image(info.backdrop_path, "banner")}>
-      <DetailBanner></DetailBanner>
+    <Container>
+      <DetailBanner {...props}></DetailBanner>
     </Container>
   );
 };

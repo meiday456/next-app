@@ -2,10 +2,22 @@ import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Image from "next/image";
 
-const Container = styled.div`
-  position: absolute;
-  width: calc(100% - 7vw - 10px);
-  height: 100%;
+const BannerImageStyle = styled.div`
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-bottom: 50%;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 13vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  }
 
   & .image {
     inset: 0;
@@ -20,9 +32,9 @@ interface Props {
 
 const BannerImage = ({src, alt}: Props): ReactElement => {
   return (
-    <Container>
+    <BannerImageStyle>
       <Image className={"image"} src={src} alt={alt} fill={true}></Image>
-    </Container>
+    </BannerImageStyle>
   );
 };
 export default BannerImage;

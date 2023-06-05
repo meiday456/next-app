@@ -8,22 +8,8 @@ import {MovieResult} from "@/types/data/MovieType";
 
 const BannerStyle = styled.header`
   color: #fff;
-  height: 0;
-  padding: 0 calc(3.5vw + 5px) 40%;
+  padding: 0 2%;
   position: relative;
-  overflow-x: hidden;
-  display: block;
-  box-sizing: border-box;
-
-  &::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: calc(100% - 7vw - 10px);
-    padding-bottom: 5vw;
-    bottom: 0;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
-  }
 `;
 
 const Banner = (): ReactElement => {

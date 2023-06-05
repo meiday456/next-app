@@ -12,3 +12,7 @@ export function getItemImgWPath(width: number, type: "banner" | "content" = "con
   }
   return w;
 }
+
+export const truncateStr = (str: string, n: number) => {
+  return str.length > n ? str.substring(0, n) + "..." : str;
+};

@@ -3,16 +3,13 @@ import styled from "@emotion/styled";
 import {MQ} from "@/constants/common";
 import {ChildrenProps} from "@/types/common";
 
-interface Props extends Partial<ChildrenProps> {
-  bgImg: string;
-}
+type Props = Partial<ChildrenProps>;
 
-const ContainerStyle = styled.main<{bgImg: string}>`
+const ContainerStyle = styled.main`
   position: relative;
   padding: 0 10px;
 
   &::after {
-    background: url(${({bgImg}) => bgImg}) center center / cover no-repeat;
     content: "";
     position: absolute;
     inset: 0;
@@ -25,8 +22,8 @@ const ContainerStyle = styled.main<{bgImg: string}>`
   }
 `;
 
-const Container = ({children, bgImg}: Props): ReactElement => {
-  return <ContainerStyle bgImg={bgImg}>{children}</ContainerStyle>;
+const Container = ({children}: Props): ReactElement => {
+  return <ContainerStyle>{children}</ContainerStyle>;
 };
 
 export default Container;
