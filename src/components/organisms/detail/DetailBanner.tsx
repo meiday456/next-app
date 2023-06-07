@@ -5,6 +5,7 @@ import BannerImage from "@/components/molecules/BannerImage";
 import {ContentType} from "@/types/data/CommonType";
 import {TvDetail} from "@/types/data/TvType";
 import {MovieDetail} from "@/types/data/MovieType";
+import DetailContents from "@/components/organisms/detail/DetailContents";
 
 interface Props {
   type: ContentType;
@@ -22,6 +23,13 @@ const DetailBanner = ({type, info}: Props): ReactElement => {
       <BannerImage
         src={info.backdrop_path ? urls.common.image(info.backdrop_path, "banner") : "/images/no_image.png"}
         alt={`${info.title || info.name || ""}_이미지`}
+        bottom={40}
+      />
+      <DetailContents
+        title={info.title || info.name || ""}
+        overview={info.overview}
+        score={Math.round(info.vote_average * 10)}
+        genres={info.genres}
       />
     </BannerStyle>
   );
