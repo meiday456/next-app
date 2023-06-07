@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {CommonBtnStyle} from "@/styles/sty/BtnSty";
+import {CommonBtnStyle} from "@/styles/sty/BtnStyle";
 import {ReactElement, ReactNode} from "react";
 import {ButtonProps} from "@/types/ButtonType";
 

@@ -3,8 +3,7 @@ import React from "react";
 import Navigation from "@/components/organisms/Navigation";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {RecoilRoot} from "recoil";
-import emotionReset from "emotion-reset";
-import {css, Global} from "@emotion/react";
+import {ThemeProvider} from "@emotion/react";
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools";
 
 import "./_app.scss";
@@ -13,6 +12,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/a11y";
+import GlobalStyle from "@/styles/sty/GlobalStyle";
+import Theme from "@/styles/Theme";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -29,26 +30,8 @@ const queryClient = new QueryClient({
 
 export default function MyApp({Component, pageProps}: AppProps) {
   return (
-    <>
-      <Global
-        styles={css`
-          ${emotionReset};
-
-          body {
-            background-color: #040714;
-            color: #f9f9f9;
-            font-family: Avenir-Roman, sans-serif;
-            margin: 0;
-            padding: 0;
-          }
-
-          a {
-            color: #f9f9f9;
-            text-decoration: none;
-          }
-        `}
-      />
-
+    <ThemeProvider theme={Theme}>
+      <GlobalStyle />
       <QueryClientProvider client={queryClient}>
         <RecoilRoot>
           {process.env.NODE_ENV !== "production" ? <ReactQueryDevtools initialIsOpen={false} /> : null}
@@ -56,7 +39,7 @@ export default function MyApp({Component, pageProps}: AppProps) {
           <Component {...pageProps} />
         </RecoilRoot>
       </QueryClientProvider>
-    </>
+    </ThemeProvider>
   );
 }
 

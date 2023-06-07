@@ -2,11 +2,11 @@ import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Image from "next/image";
 
-const BannerImageStyle = styled.div`
+const BannerImageStyle = styled.div<{bottom: number}>`
   position: relative;
   top: 0;
   left: 0;
-  padding-bottom: 50%;
+  padding-bottom: ${({bottom}) => bottom}%;
 
   &::after {
     content: "";
@@ -28,13 +28,19 @@ const BannerImageStyle = styled.div`
 interface Props {
   src: string;
   alt: string;
+  bottom: number;
 }
 
-const BannerImage = ({src, alt}: Props): ReactElement => {
+const BannerImage = ({src, alt, bottom}: Props): ReactElement => {
   return (
-    <BannerImageStyle>
+    <BannerImageStyle bottom={bottom}>
       <Image className={"image"} src={src} alt={alt} fill={true}></Image>
     </BannerImageStyle>
   );
 };
+
+BannerImage.defaultProps = {
+  bottom: 50,
+};
+
 export default BannerImage;

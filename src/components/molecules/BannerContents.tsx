@@ -5,7 +5,6 @@ import Description from "@/components/atoms/Description";
 import Button from "@/components/atoms/Button";
 import {MovieResult} from "@/types/data/MovieType";
 import {useRouter} from "next/router";
-import {truncateStr} from "@/utils/CommonUtils";
 
 const BannerContentsStyle = styled.div`
   position: absolute;
@@ -34,7 +33,7 @@ const BannerContents = ({info}: Props): ReactElement => {
   return (
     <BannerContentsStyle>
       <Title>{info.title || info.original_title}</Title>
-      <Description>{truncateStr(info.overview, 50)}</Description>
+      <Description content={info.overview} />
       <ButtonWrapperStyle>
         <Button onClick={() => detailBtnClickHandler()}>상세정보</Button>
       </ButtonWrapperStyle>

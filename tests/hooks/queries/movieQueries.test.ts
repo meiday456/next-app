@@ -3,8 +3,9 @@ import {renderHook, waitFor} from "@testing-library/react";
 import {wrapper} from "../../testUtils";
 import {useMovieDetail, useMovieDetailVideos, useMovieNowContents} from "@/hooks/query/queries/movieQueries";
 import {UseQueryOptions} from "@tanstack/react-query";
-import {Now, Video} from "@/types/data/MovieType";
+import {Now} from "@/types/data/MovieType";
 import {AxiosError} from "axios";
+import {Video} from "@/types/data/CommonType";
 
 describe("movieQueries", () => {
   describe("useMovieNowContents", () => {
@@ -27,7 +28,7 @@ describe("movieQueries", () => {
     context("onSuccess가 할당되었을때", () => {
       it("정상 호출되고, onSuccess를 수행된다.", async () => {
         const onSuccess = jest.fn();
-        executeQuery({}, (data: Now) => {
+        executeQuery({}, () => {
           onSuccess();
         });
         await waitFor(() => {

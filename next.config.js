@@ -1,4 +1,5 @@
 /** @type {import("next").NextConfig} */
+const webpack = require('webpack');
 const StylelintPlugin = require("stylelint-webpack-plugin");
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
@@ -14,12 +15,18 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
-  webpack: (config, options) => {
-    config.plugins.push(new StylelintPlugin());
+  webpack: (config) => {
+    config.plugins.push(
+      new StylelintPlugin(),
+      new webpack.ProvidePlugin({
+        React: "react",
+      }));
     return config;
   },
+
+
 };
 
-module.exports = (phase, defaultConfig) => {
+module.exports = () => {
   return withBundleAnalyzer(nextConfig);
 };

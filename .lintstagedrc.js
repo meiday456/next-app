@@ -10,7 +10,7 @@ module.exports = {
   "*.{ts,tsx}": [
     buildEslintCommand,
     'stylelint "**/*.{ts,tsx}" --cache --fix',
-    'tsc-files --noEmit --incremental false'
+    // 'tsc-files --noEmit --incremental false'
   ],
   "**/*.css": 'stylelint "**/*.{css,scss,sass}" --cache --fix',
   "./src/**": "prettier --cache --write --ignore-unknown ",

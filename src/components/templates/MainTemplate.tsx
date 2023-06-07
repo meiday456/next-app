@@ -5,7 +5,7 @@ import ContentsContainer from "@/components/organisms/ContentsContainer";
 const MainTemplate = () => {
   return (
     <>
-      <Container bgImg={"/images/home-background.png"}>
+      <Container>
         <Banner></Banner>
         <ContentsContainer></ContentsContainer>
       </Container>
