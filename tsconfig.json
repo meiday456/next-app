@@ -27,12 +27,13 @@
       "@/*": ["./src/*"],
       "$/pages/*": ["./pages/*"],
       "$/fixture/*" : ["./fixture/*"]
-    }
+    },
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "./*.d.ts",
+    "types.d.ts",
+    "@types/**/*.d.ts",
     ".next/types/**/*.ts",
     "jest.setup.js"
   ],
