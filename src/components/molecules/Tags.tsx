@@ -11,7 +11,9 @@ interface Props {
 const TagLabelStyle = styled.span(props => ({
   color: props.theme.colors.white50,
   fontSize: "14px",
+  marginRight: "0.2vw",
 }));
+
 const Tags = (props: Props): ReactElement => {
   return (
     <>

@@ -47,6 +47,7 @@
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/require-await":"warn",
+     "@typescript-eslint/prefer-nullish-coalescing" : "off",
     "prettier/prettier": ["error", { "printWidth": 120 }]
   },
   "ignorePatterns": [

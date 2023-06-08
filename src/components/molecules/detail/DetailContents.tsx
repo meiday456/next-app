@@ -33,11 +33,9 @@ const DetailContents = (props: Props): ReactElement => {
     <DetailContentsStyle>
       <Title>{props.title}</Title>
       <Description content={props.overview} />
-      {/*  평점 */}
-      <ScoreBox value={props.score} width={50} />
-      {/*  출연진*/}
-      {/*  장르 정보*/}
-      <Tags label={"장르"} list={props.genres.map(generes => generes.name)} />
+      <ScoreBox label={"회원점수"} value={props.score} width={50}></ScoreBox>
+      <Tags label={"출연진"} list={actors?.slice(0, 3) || []} />
+      <Tags label={"장르"} list={genresNameList.slice(0, 3)} />
     </DetailContentsStyle>
   );
 };
