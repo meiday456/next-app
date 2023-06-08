@@ -1,23 +1,17 @@
 import {ReactElement} from "react";
-import styled from "@emotion/styled";
 import Tag from "@/components/atoms/Tag";
 import {getRandomKey} from "@/utils/CommonUtils";
+import Label from "@/components/atoms/Label";
 
 interface Props {
   label: string;
   list: string[];
 }
 
-const TagLabelStyle = styled.span(props => ({
-  color: props.theme.colors.white50,
-  fontSize: "14px",
-  marginRight: "0.2vw",
-}));
-
 const Tags = (props: Props): ReactElement => {
   return (
     <>
-      <TagLabelStyle>{props.label} : </TagLabelStyle>
+      <Label content={`${props.label} :`} />
       {props.list.map((content, index) => {
         return (
           <Tag key={getRandomKey("Tag")}>

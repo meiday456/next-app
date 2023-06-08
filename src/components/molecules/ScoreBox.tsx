@@ -1,6 +1,7 @@
 import {ReactElement} from "react";
 import styled from "@emotion/styled";
 import Score from "@/components/atoms/Score";
+import Label from "@/components/atoms/Label";
 
 interface Props {
   label: string;
@@ -16,14 +17,11 @@ const Container = styled.div`
   bottom: 0;
   right: 0;
 `;
-const Label = styled.span`
-  margin-right: 0.2vw;
-`;
 
 const ScoreBox = (props: Props): ReactElement => {
   return (
     <Container>
-      <Label>{props.label}</Label>
+      <Label content={props.label} />
       <Score {...props} />
     </Container>
   );
