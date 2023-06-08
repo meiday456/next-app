@@ -1,11 +1,11 @@
 import {screen, waitFor} from "@testing-library/react";
 import Main from "$/pages/main";
 import "@testing-library/jest-dom";
-import {queryRender} from "../testUtils";
+import {renderWithProvider} from "../testUtils";
 
 describe("home test", () => {
   const renderMain = () => {
-    return queryRender(<Main />);
+    return renderWithProvider(<Main />);
   };
 
   const findContentTitle = (name: string) => {
