@@ -1,0 +1,129 @@
+{
+  "adult": false,
+  "backdrop_path": "/1V4SPkV3bQvl85zK4FqwTzdfBs4.jpg",
+  "created_by": [
+    {
+      "id": 21206,
+      "credit_id": "6404e86a021cee00da36d3be",
+      "name": "Graham Yost",
+      "gender": 2,
+      "profile_path": "/7BWHMEm9jT7IXNSKUB8icZnyRtZ.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2023-05-04",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "드라마"
+    }
+  ],
+  "homepage": "https://tv.apple.com/show/umc.cmc.3yksgc857px0k0rqe5zd4jice",
+  "id": 125988,
+  "in_production": true,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2023-06-01",
+  "last_episode_to_air": {
+    "id": 4281674,
+    "name": "유물",
+    "overview": "수사 중 줄리엣은 자기가 안다고 생각했던 사람에 관한 충격적인 비밀을 알게 된다.",
+    "vote_average": 7.8,
+    "vote_count": 8,
+    "air_date": "2023-06-01",
+    "episode_number": 6,
+    "production_code": "",
+    "runtime": 51,
+    "season_number": 1,
+    "show_id": 125988,
+    "still_path": "/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg"
+  },
+  "name": "지하창고 사일로의 비밀",
+  "next_episode_to_air": {
+    "id": 4281675,
+    "name": "플레임키퍼스",
+    "overview": "버나드는 사일로의 보안을 염려하며 줄리엣에게 협조를 구하고, 줄리엣은 아버지에게 도움을 청한다.",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "air_date": "2023-06-08",
+    "episode_number": 7,
+    "production_code": "",
+    "runtime": 47,
+    "season_number": 1,
+    "show_id": 125988,
+    "still_path": "/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg"
+  },
+  "networks": [
+    {
+      "id": 2552,
+      "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+      "name": "Apple TV+",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US",
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Silo",
+  "overview": "황폐해지고 유독한 물질로 가득한 미래, 수백 층 깊이의 지하 깊숙한 곳 거대한 저장고에 존재하는 공동체가 있고, 자기들을 지켜 준다고 믿는 규칙으로 가득한 그 사회에서 사는 남자들과 여자들이 있다.",
+  "popularity": 887.899,
+  "poster_path": "/4NWxouGhVK22TRW1g9yl0cXkTkQ.jpg",
+  "production_companies": [
+    {
+      "id": 23242,
+      "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+      "name": "AMC Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 65105,
+      "logo_path": null,
+      "name": "Nemo Films",
+      "origin_country": "US"
+    },
+    {
+      "id": 199363,
+      "logo_path": null,
+      "name": "Mimir Films",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2023-05-04",
+      "episode_count": 10,
+      "id": 196076,
+      "name": "시즌 1",
+      "overview": "",
+      "poster_path": "/4NWxouGhVK22TRW1g9yl0cXkTkQ.jpg",
+      "season_number": 1
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 8.4,
+  "vote_count": 128
+}
