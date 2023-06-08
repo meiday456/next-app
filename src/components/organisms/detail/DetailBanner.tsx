@@ -5,7 +5,7 @@ import BannerImage from "@/components/molecules/BannerImage";
 import {ContentType} from "@/types/data/CommonType";
 import {TvDetail} from "@/types/data/TvType";
 import {MovieDetail} from "@/types/data/MovieType";
-import DetailContents from "@/components/organisms/detail/DetailContents";
+import DetailContents from "@/components/molecules/detail/DetailContents";
 
 interface Props {
   type: ContentType;
@@ -26,6 +26,8 @@ const DetailBanner = ({type, info}: Props): ReactElement => {
         bottom={40}
       />
       <DetailContents
+        id={info.id}
+        type={type}
         title={info.title || info.name || ""}
         overview={info.overview}
         score={Math.round(info.vote_average * 10)}

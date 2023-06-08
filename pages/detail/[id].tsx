@@ -31,17 +31,22 @@ const DetailPage = ({type, info}: InferGetServerSidePropsType<typeof getServerSi
 export default DetailPage;
 
 export const getServerSideProps: GetServerSideProps<Props, {id: string}> = async context => {
-  const id = context.params!.id;
+  const fullId = context.params!.id;
+
+  const idPrefix = fullId.at(0);
+  const id = +fullId.slice(1, fullId.length);
+
   let response;
   let type: ContentType;
-  if (id.startsWith(CONTENT_TYPE.TV)) {
+
+  if (idPrefix === "P") {
     //tv program
-    type = CONTENT_TYPE.TV;
-    response = await getDetailTv(+id);
+    type = CONTENT_TYPE.P;
+    response = await getDetailTv(id);
   } else {
     //movie
-    type = CONTENT_TYPE.MOVIE;
-    response = await getDetailMovie(+id);
+    type = CONTENT_TYPE.M;
+    response = await getDetailMovie(id);
   }
 
   return {

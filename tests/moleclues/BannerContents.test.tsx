@@ -53,7 +53,7 @@ describe("BannerContents", () => {
       const buttonElement = screen.getByText("상세정보");
       await userEvent.click(buttonElement);
 
-      expect(mockPush).toHaveBeenCalledWith(`/detail/${fixture.id}`);
+      expect(mockPush).toHaveBeenCalledWith(`/detail/M${fixture.id}`);
     });
   });
 });

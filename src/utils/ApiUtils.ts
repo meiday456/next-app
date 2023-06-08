@@ -1,5 +1,6 @@
 import axios from "axios";
 import urls from "./Urls";
+
 const ApiUtils = axios.create({
   baseURL: urls.common.base,
   timeout: 10000,
@@ -12,7 +13,7 @@ const ApiUtils = axios.create({
   },
 });
 
-ApiUtils.interceptors.request.use(
+export const ApiUtilsInterceptorsRequestId = ApiUtils.interceptors.request.use(
   config => {
     config.headers["Content-Type"] = "application/json; charset=utf-8";
     return config;
@@ -21,7 +22,7 @@ ApiUtils.interceptors.request.use(
     return Promise.reject(error);
   },
 );
-ApiUtils.interceptors.response.use(
+export const ApiUtilsInterceptorsResponseId = ApiUtils.interceptors.response.use(
   response => {
     return response;
   },

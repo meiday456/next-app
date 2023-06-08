@@ -14,9 +14,11 @@ const BannerStyle = styled.header`
 
 const Banner = (): ReactElement => {
   const [bannerMovie, setBannerMovie] = useState<MovieResult>();
-  useMovieNowContents({}, data => {
-    const index = Math.floor(Math.random() * data.results.length);
-    setBannerMovie(data.results[index]);
+  useMovieNowContents({
+    onSuccess: data => {
+      const index = Math.floor(Math.random() * data.results.length);
+      setBannerMovie(data.results[index]);
+    },
   });
 
   return (

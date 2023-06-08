@@ -9,12 +9,9 @@ import {Video} from "@/types/data/CommonType";
 
 describe("movieQueries", () => {
   describe("useMovieNowContents", () => {
-    const executeQuery = (
-      options: UseQueryOptions<Now, AxiosError> = {},
-      onSuccess: (data: Now) => void = () => {},
-    ) => {
+    const executeQuery = (options: UseQueryOptions<Now, AxiosError> = {}) => {
       return {
-        ...renderHook(() => useMovieNowContents(options, onSuccess), {wrapper}),
+        ...renderHook(() => useMovieNowContents(options), {wrapper}),
       };
     };
     context("파라미터 없이 호출 시", () => {
@@ -28,9 +25,7 @@ describe("movieQueries", () => {
     context("onSuccess가 할당되었을때", () => {
       it("정상 호출되고, onSuccess를 수행된다.", async () => {
         const onSuccess = jest.fn();
-        executeQuery({}, () => {
-          onSuccess();
-        });
+        executeQuery({onSuccess});
         await waitFor(() => {
           expect(onSuccess).toHaveBeenCalledTimes(1);
         });

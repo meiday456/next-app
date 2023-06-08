@@ -1,7 +1,7 @@
 import {Now as MovieNow, Popular as MoviePopular} from "@/types/data/MovieType";
 import {Tv} from "@/types/data/TvType";
 
-export type ContentType = "M" | "P";
+export type ContentType = "MOVIE" | "TV";
 export type Time_window = "day" | "week";
 export type ImageType = "banner" | "content";
 
@@ -85,4 +85,38 @@ export interface VideoResult {
   official: boolean;
   published_at: string;
   id: string;
+}
+
+export interface Credits {
+  cast: Cast[];
+  crew: Crew[];
+  id: number;
+}
+
+export interface Cast {
+  adult: boolean;
+  gender: number;
+  id: number;
+  known_for_department: string;
+  name: string;
+  original_name: string;
+  popularity: number;
+  profile_path: string;
+  character: string;
+  credit_id: string;
+  order: number;
+}
+
+export interface Crew {
+  adult: boolean;
+  gender: number;
+  id: number;
+  known_for_department: string;
+  name: string;
+  original_name: string;
+  popularity: number;
+  profile_path?: string;
+  credit_id: string;
+  department: string;
+  job: string;
 }

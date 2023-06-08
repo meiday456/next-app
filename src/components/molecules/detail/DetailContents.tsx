@@ -3,11 +3,14 @@ import styled from "@emotion/styled";
 
 import Title from "@/components/atoms/Title";
 import Description from "@/components/atoms/Description";
-import ScoreBox from "@/components/atoms/ScoreBox";
-import {Genre} from "@/types/data/CommonType";
+import {ContentType, Genre} from "@/types/data/CommonType";
 import Tags from "@/components/molecules/Tags";
+import {useGetActors} from "@/hooks/query/queries/commonQueries";
+import ScoreBox from "@/components/molecules/ScoreBox";
 
 interface Props {
+  id: number;
+  type: ContentType;
   title: string;
   overview: string;
   score: number;
@@ -23,6 +26,9 @@ const DetailContentsStyle = styled.div`
 `;
 
 const DetailContents = (props: Props): ReactElement => {
+  const genresNameList = props.genres.map(genres => genres.name);
+  const {data: actors} = useGetActors(props.type, props.id);
+
   return (
     <DetailContentsStyle>
       <Title>{props.title}</Title>

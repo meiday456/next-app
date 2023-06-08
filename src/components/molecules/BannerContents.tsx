@@ -27,7 +27,7 @@ const BannerContents = ({info}: Props): ReactElement => {
   const router = useRouter();
 
   const detailBtnClickHandler = () => {
-    void router.push(`/detail/${info.id}`);
+    void router.push(`/detail/M${info.id}`);
   };
 
   return (

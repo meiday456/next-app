@@ -1,3 +1,5 @@
+import {ContentType} from "@/types/data/CommonType";
+
 const movie = {
   all: ["movie"],
   allQuery: () => [...movie.all, "query"],
@@ -23,6 +25,7 @@ const common = {
   query: {
     trending: () => [...common.allQuery(), "trending"],
     contents: () => [...common.allQuery(), "contents"],
+    credits: (type: Lowercase<ContentType>, id: number) => [...common.allQuery(), "contents", type, id, "credits"],
   },
 };
 
